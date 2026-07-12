@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Signal Brief — AI developments, translated for health-tech founders</title>
+<meta name="description" content="A weekly brief that reads the week's AI developments and says what they mean for what you should build. Reasoning by Claude, curated by Achara Kelley." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#131A24;
+    --ink-soft:#2A3644;
+    --paper:#F1F4F7;
+    --card:#FFFFFF;
+    --line:#DCE3EA;
+    --slate:#5E6C7B;
+    --slate-soft:#8A97A4;
+    --signal:#E4A11B;
+    --signal-deep:#B87C0C;
+    --skip:#9AA6B2;
+    --focus:#131A24;
+    --maxw:820px;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Newsreader",Georgia,serif;
+    font-size:18px;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px;}
+
+  /* ---- Masthead ---- */
+  .masthead{border-bottom:2px solid var(--ink);padding:56px 0 28px;}
+  .kicker{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:12px;letter-spacing:0.18em;text-transform:uppercase;
+    color:var(--slate);margin:0 0 20px;
+  }
+  .title{
+    font-family:"Space Grotesk",sans-serif;
+    font-weight:700;
+    font-size:clamp(44px,9vw,84px);
+    line-height:0.98;
+    letter-spacing:-0.02em;
+    margin:0 0 18px;
+  }
+  .thesis{
+    font-size:clamp(19px,2.6vw,23px);
+    line-height:1.42;
+    max-width:38ch;
+    margin:0 0 28px;
+    color:var(--ink-soft);
+  }
+  .thesis b{font-weight:500;color:var(--ink);}
+  .issueline{
+    display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+    font-family:"IBM Plex Mono",monospace;
+    font-size:12.5px;letter-spacing:0.08em;
+    color:var(--slate);
+  }
+  .issueline .dot{width:5px;height:5px;border-radius:50%;background:var(--signal);}
+  .cta{
+    display:inline-block;
+    font-family:"Space Grotesk",sans-serif;
+    font-weight:600;font-size:15px;letter-spacing:0.01em;
+    text-decoration:none;
+    background:var(--ink);color:#fff;
+    padding:13px 22px;border-radius:2px;
+    margin-top:26px;
+    transition:background .15s ease,transform .15s ease;
+  }
+  .cta:hover{background:#000;transform:translateY(-1px);}
+  .cta.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink);}
+  .cta.ghost:hover{background:var(--ink);color:#fff;}
+
+  /* ---- Brief body ---- */
+  .brief{padding:40px 0 8px;}
+  .daygroup{margin:0 0 8px;}
+  .dayhead{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:12px;letter-spacing:0.16em;text-transform:uppercase;
+    color:var(--slate);
+    padding:26px 0 12px;
+    border-bottom:1px solid var(--line);
+    margin-bottom:0;
+  }
+
+  .item{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:3px;
+    padding:22px 22px 20px;
+    margin:16px 0;
+  }
+  .item-top{
+    display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+    margin-bottom:12px;
+  }
+  .stamp{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;
+    padding:5px 9px;border-radius:2px;white-space:nowrap;
+  }
+  .stamp.build{background:var(--signal);color:#231a02;}
+  .stamp.watch{background:transparent;color:var(--signal-deep);border:1.5px solid var(--signal);}
+  .stamp.skip{background:transparent;color:var(--skip);border:1.5px solid var(--line);}
+  .src{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:12px;color:var(--slate);letter-spacing:0.03em;
+  }
+  .item h3{
+    font-family:"Newsreader",serif;
+    font-weight:500;font-size:24px;line-height:1.24;
+    margin:2px 0 14px;letter-spacing:-0.01em;
+  }
+  .item h3 a{
+    text-decoration:none;
+    background-image:linear-gradient(var(--signal),var(--signal));
+    background-size:0% 2px;background-repeat:no-repeat;background-position:0 100%;
+    transition:background-size .25s ease;
+  }
+  .item h3 a:hover{background-size:100% 2px;}
+  .item h3 a::after{content:" \2197";font-size:16px;color:var(--slate-soft);}
+  .takeaways{list-style:none;margin:0;padding:0;}
+  .takeaways li{
+    position:relative;padding:0 0 0 22px;margin:0 0 9px;
+    font-size:17px;line-height:1.5;color:var(--ink-soft);
+  }
+  .takeaways li:last-child{margin-bottom:0;}
+  .takeaways li::before{
+    content:"";position:absolute;left:2px;top:11px;
+    width:8px;height:2px;background:var(--signal);
+  }
+
+  .misses{
+    margin:20px 0 0;padding:16px 18px;
+    border:1px dashed var(--line);border-radius:3px;
+    font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--slate);
+    line-height:1.7;
+  }
+  .misses b{color:var(--ink-soft);font-weight:600;}
+
+  /* ---- How it's built (proof) ---- */
+  .built{
+    margin-top:48px;border-top:2px solid var(--ink);
+    padding:36px 0 0;
+  }
+  .built h2{
+    font-family:"Space Grotesk",sans-serif;font-weight:700;
+    font-size:26px;letter-spacing:-0.01em;margin:0 0 14px;
+  }
+  .built p{max-width:56ch;color:var(--ink-soft);margin:0 0 18px;font-size:17px;}
+  .built p b{color:var(--ink);font-weight:500;}
+  .sources{
+    display:grid;grid-template-columns:1fr 1fr;gap:8px 24px;
+    font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--slate);
+    margin:22px 0 6px;padding:0;list-style:none;
+  }
+  .sources li{padding:7px 0;border-bottom:1px solid var(--line);}
+  .sources li span{color:var(--ink);}
+
+  footer{padding:48px 0 64px;}
+  .sig{
+    font-family:"IBM Plex Mono",monospace;font-size:12px;
+    color:var(--slate-soft);letter-spacing:0.05em;line-height:1.8;
+  }
+
+  /* ---- states ---- */
+  #status{
+    font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--slate);
+    padding:40px 0;
+  }
+
+  @media (max-width:560px){
+    body{font-size:17px;}
+    .sources{grid-template-columns:1fr;}
+    .item{padding:18px 16px;}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{transition:none!important;}
+  }
+  a:focus-visible,.cta:focus-visible{outline:2px solid var(--focus);outline-offset:3px;}
+</style>
+
+<!-- Cloudflare Web Analytics: paste your token below (replace YOUR_CLOUDFLARE_TOKEN).
+     Get it at Cloudflare dashboard > Web Analytics > add your site. No cookie banner needed.
+     This whole block is inert until a real token is set. -->
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token": "YOUR_CLOUDFLARE_TOKEN"}'></script>
+<!-- End Cloudflare Web Analytics -->
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <p class="kicker">Weekly · AI for health-tech founders</p>
+      <h1 class="title">Signal<br>Brief</h1>
+      <p class="thesis">Every week, the AI news that actually changes <b>what you should build</b>. The verdict is the point, not the links.</p>
+      <div class="issueline" id="issueline">
+        <span id="issue">Brief № —</span>
+        <span class="dot"></span>
+        <span id="date">loading</span>
+      </div>
+    </header>
+
+    <main class="brief" id="brief">
+      <div id="status">Loading this week's brief…</div>
+    </main>
+
+    <section class="built" id="book">
+      <h2>This brief writes itself</h2>
+      <p>Three times a week, an automated job reads the sources below and <b>Claude writes the founder-facing verdict</b>. No human writes the summaries. That is deliberate: this is the same reasoning layer I build into health-tech products, running in public so you can watch it work.</p>
+      <p>If you are a non-technical founder trying to decide what AI is worth building, that decision is the job I do.</p>
+      <ul class="sources" id="sources"></ul>
+    </section>
+
+    <footer>
+      <p class="sig">
+        Curated by Achara Kelley · Fractional CTO &amp; AI officer for health-tech<br>
+        Reasoning by Claude · Fetched and reasoned automatically via GitHub Actions<br>
+        This is a demo of applied judgment, not investment or medical advice.
+      </p>
+    </footer>
+  </div>
+
+<script>
+// Fallback sample so the page renders standalone (before the first scheduled run).
+const FALLBACK = {
+  issue: 28,
+  generated_at: "2026-07-09T13:00:00Z",
+  items: [
+    {
+      source: "One Useful Thing", author: "Ethan Mollick", date: "2026-07-08",
+      title: "What the new long-context models change about workflows",
+      url: "https://www.oneusefulthing.org/",
+      verdict: "BUILD-RELEVANT",
+      takeaways: [
+        "Longer context means intake and triage flows you shelved for cost reasons are now viable to prototype.",
+        "For a patient-facing tool, the win is fewer handoffs, not a flashier chatbot. Scope it to one workflow.",
+        "Test on real records before promising it internally. Accuracy at length still degrades on messy input."
+      ]
+    },
+    {
+      source: "Ahead of AI", author: "Sebastian Raschka", date: "2026-07-08",
+      title: "A clear walkthrough of fine-tuning vs retrieval for domain data",
+      url: "https://magazine.sebastianraschka.com/",
+      verdict: "WATCH",
+      takeaways: [
+        "If your differentiator is proprietary clinical data, this is the build-vs-buy decision to get right early.",
+        "Retrieval is usually the cheaper first move. Fine-tuning is a later optimization, not a starting point.",
+        "Worth a skim before your next vendor call so you can push back on 'we'll just train a model on your data'."
+      ]
+    },
+    {
+      source: "Import AI", author: "Jack Clark", date: "2026-07-04",
+      title: "New guidance signals on health data and model deployment",
+      url: "https://importai.net/",
+      verdict: "BUILD-RELEVANT",
+      takeaways: [
+        "If you touch PHI, the governance posture you set now is cheaper than the one you retrofit after a raise.",
+        "The flag for founders: document where model outputs influence care decisions, before anyone asks.",
+        "This is the risk line a diligence team will probe. Have an answer before the term sheet, not after."
+      ]
+    },
+    {
+      source: "The Rundown AI", author: "Daily", date: "2026-07-07",
+      title: "Roundup of this week's model and tool launches",
+      url: "https://www.therundown.ai/",
+      verdict: "SKIP",
+      takeaways: [
+        "Broad launch coverage with nothing that changes a build decision for a health-tech founder this week.",
+        "Safe to skip. Nothing here survives the 'does this change what I ship' filter."
+      ]
+    }
+  ],
+  misses: [
+    { source: "The Batch (Andrew Ng)", reason: "No new post in the last 7 days" }
+  ]
+};
+
+const SOURCE_LIST = [
+  ["One Useful Thing", "Ethan Mollick"],
+  ["Ahead of AI", "Sebastian Raschka"],
+  ["Latent Space", "swyx"],
+  ["The Batch", "Andrew Ng"],
+  ["Import AI", "Jack Clark"],
+  ["Interconnects", "Nathan Lambert"]
+];
+
+function fmtDate(iso){
+  try{
+    const d = new Date(iso);
+    return d.toLocaleDateString("en-GB",{day:"2-digit",month:"short",year:"numeric"}).toUpperCase();
+  }catch(e){ return iso; }
+}
+function dayLabel(iso){
+  try{
+    return new Date(iso).toLocaleDateString("en-US",{weekday:"long"}).toUpperCase();
+  }catch(e){ return ""; }
+}
+function stampClass(v){
+  const s = (v||"").toUpperCase();
+  if(s.startsWith("BUILD")) return "build";
+  if(s.startsWith("WATCH")) return "watch";
+  return "skip";
+}
+function esc(str){
+  return String(str||"").replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function render(data){
+  document.getElementById("issue").textContent = "Brief № " + String(data.issue||"—").padStart(3,"0");
+  document.getElementById("date").textContent = fmtDate(data.generated_at);
+
+  const brief = document.getElementById("brief");
+  brief.innerHTML = "";
+
+  (data.items||[]).forEach(it=>{
+    const card = document.createElement("article");
+    card.className = "item";
+    const takeaways = (it.takeaways||[]).map(t=>`<li>${esc(t)}</li>`).join("");
+    // Only link if a real URL is present. Never invent one.
+    const titleHtml = it.url
+      ? `<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>`
+      : esc(it.title);
+    card.innerHTML = `
+      <div class="item-top">
+        <span class="stamp ${stampClass(it.verdict)}">${esc(it.verdict||"WATCH")}</span>
+        <span class="src">${esc(it.source||"")}${it.author? " · "+esc(it.author):""} · ${fmtDate(it.date)}</span>
+      </div>
+      <h3>${titleHtml}</h3>
+      <ul class="takeaways">${takeaways}</ul>`;
+    brief.appendChild(card);
+  });
+
+  if(data.misses && data.misses.length){
+    const m = document.createElement("div");
+    m.className = "misses";
+    m.innerHTML = "<b>Checked, nothing new:</b> " +
+      data.misses.map(x=>`${esc(x.source)} (${esc(x.reason)})`).join(" · ");
+    brief.appendChild(m);
+  }
+
+  // sources list
+  const srcEl = document.getElementById("sources");
+  srcEl.innerHTML = SOURCE_LIST.map(([n,a])=>`<li><span>${esc(n)}</span> · ${esc(a)}</li>`).join("");
+}
+
+fetch("./digest.json",{cache:"no-store"})
+  .then(r=>{ if(!r.ok) throw new Error("no digest"); return r.json(); })
+  .then(render)
+  .catch(()=>render(FALLBACK));
+</script>
+</body>
+</html>

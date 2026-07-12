@@ -1,0 +1,17 @@
+{
+  "name": "signal-brief",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A weekly AI brief that translates developments into decisions for health-tech founders.",
+  "scripts": {
+    "build": "node scripts/build-digest.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "rss-parser": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

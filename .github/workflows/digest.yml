@@ -1,0 +1,59 @@
+name: Build weekly brief
+
+on:
+  schedule:
+    - cron: "0 13 * * 1,3,5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci || npm install
+      - name: Generate digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run build
+      - name: Inject Cloudflare token
+        env:
+          CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+        run: |
+          sed -i "s/YOUR_CLOUDFLARE_TOKEN/${CLOUDFLARE_TOKEN}/g" index.html
+      - name: Commit updated digest
+        run: |
+          git config user.name "signal-brief-bot"
+          git config user.email "actions@github.com"
+          git add digest.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update brief $(date -u +%Y-%m-%d)"
+            git push
+          fi
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
