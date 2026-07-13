@@ -1,20 +1,7 @@
 {
-  "issue": 31,
-  "generated_at": "2026-07-12T21:14:04.641Z",
+  "issue": 32,
+  "generated_at": "2026-07-13T15:38:13.245Z",
   "items": [
-    {
-      "source": "Import AI",
-      "author": "Jack Clark",
-      "date": "2026-07-06",
-      "title": "Import AI 464: Fables writes GPU kernels; AI automation; and analog computation",
-      "url": "https://jack-clark.net/2026/07/06/import-ai-464-fables-writes-gpu-kernels-ai-automation-and-analog-computation/",
-      "verdict": "WATCH",
-      "takeaways": [
-        "This is about AI writing low level GPU code to speed up other AI systems, which is a research infrastructure trend, not something a health-tech product needs today.",
-        "Worth tracking loosely: if AI can automate more of its own R&D, the pace and cost of building AI tools in general could shift over time, which may indirectly affect vendor pricing or capabilities later.",
-        "The excerpt is too thin to judge specifics or timelines, so no build decision should change based on this alone."
-      ]
-    },
     {
       "source": "Interconnects",
       "author": "Nathan Lambert",
@@ -23,9 +10,9 @@
       "url": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt only states that open source AI is facing a major test right now, without details on what is being tested or the outcome, so there is nothing concrete to act on yet.",
-        "If your product roadmap depends on open source AI models being viable long term, keep an eye on how this situation develops before committing further.",
-        "Avoid making build decisions based on this alone since the excerpt lacks specifics on which models, companies, or risks are involved."
+        "This excerpt only says open source AI is facing a major test, but gives no details on what changed or why it matters.",
+        "Do not switch strategies yet. Wait for follow up coverage that explains specifics before deciding whether to rely on open models for your product.",
+        "Keep an eye on this topic since shifts in open model viability could affect cost and vendor choices later, but it is too early to act on."
       ]
     },
     {
@@ -36,9 +23,9 @@
       "url": "https://www.latent.space/p/ainews-not-much-happened-today-f5c",
       "verdict": "SKIP",
       "takeaways": [
-        "This post has no real content, it just says today was a quiet news day after a busy week of AI model releases.",
-        "There is nothing here that affects any build decision, so no action is needed.",
-        "Worth glancing at tomorrow's issue if it covers the actual model releases from the past week, since those might matter."
+        "This post is just a filler summary noting a quiet news day, so there is nothing here to act on.",
+        "No product, model, or pricing details are mentioned that would affect any build decision.",
+        "Safe to skip and check back when there is a substantive release relevant to your roadmap."
       ]
     }
   ],
@@ -49,6 +36,10 @@
     },
     {
       "source": "Ahead of AI (Sebastian Raschka)",
+      "reason": "No new post in the last 7 days"
+    },
+    {
+      "source": "Import AI (Jack Clark)",
       "reason": "No new post in the last 7 days"
     }
   ]
