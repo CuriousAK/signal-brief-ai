@@ -1,31 +1,44 @@
 {
-  "issue": 34,
-  "generated_at": "2026-07-17T14:24:34.540Z",
+  "issue": 35,
+  "generated_at": "2026-07-20T15:01:10.749Z",
   "items": [
     {
-      "source": "Latent Space",
-      "author": "swyx",
-      "date": "2026-07-17",
-      "title": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
-      "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+      "source": "Ahead of AI",
+      "author": "Sebastian Raschka",
+      "date": "2026-07-18",
+      "title": "Controlling Reasoning Effort in LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt only gives a headline claim about a new large open model and a pricing comparison, with no real details to judge yet.",
-        "If the pricing claim holds up, it could mean cheaper access to high-end AI capability, which is worth tracking for future cost planning.",
-        "Do not change any build plans yet. Wait for a fuller report with actual benchmarks, pricing details, and access method before acting."
+        "The excerpt only gives a title and topic, not enough detail on how this works or what results it shows, so no build decision can be made yet.",
+        "If this concerns adjustable reasoning depth in AI models, it could later help control cost and speed tradeoffs in health-tech apps, worth tracking as more detail emerges.",
+        "Do not change any current AI integration plans based on this alone, the information here is too thin to act on."
       ]
     },
     {
-      "source": "Interconnects",
-      "author": "Nathan Lambert",
-      "date": "2026-07-12",
-      "title": "6 months to live for open models",
-      "url": "https://www.interconnects.ai/p/6-months-to-live-for-open-models",
+      "source": "Import AI",
+      "author": "Jack Clark",
+      "date": "2026-07-20",
+      "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis’ big policy plan",
+      "url": "https://jack-clark.net/2026/07/20/import-ai-465-open-vs-closed-gaps-kimi-k3-demis-big-policy-plan/",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt only claims open source AI is facing a big test right now, with no details on what changed or why.",
-        "Do not switch your model strategy yet, just note that open model reliability or availability may be in flux over the next few months.",
-        "Watch for a follow up with specifics before making any build decisions tied to open source models."
+        "This excerpt only teases topics (open vs closed model security gap, a new Kimi model, a policy plan) without enough detail to act on.",
+        "The mention that open-weight models are catching up to closed ones on cyber risk is worth tracking, since it may affect which AI models are seen as safe to use for handling sensitive health data.",
+        "No specific product, pricing, or capability details are given here, so there is nothing to build against yet. Just keep an eye on future issues for specifics."
+      ]
+    },
+    {
+      "source": "Latent Space",
+      "author": "swyx",
+      "date": "2026-07-18",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-830",
+      "verdict": "SKIP",
+      "takeaways": [
+        "This post has no real content, it just says it was a quiet day with nothing notable to report.",
+        "There is nothing here that affects any build decisions for your health-tech product.",
+        "No action needed, just move on to other sources for updates."
       ]
     }
   ],
@@ -35,11 +48,7 @@
       "reason": "No new post in the last 7 days"
     },
     {
-      "source": "Ahead of AI (Sebastian Raschka)",
-      "reason": "No new post in the last 7 days"
-    },
-    {
-      "source": "Import AI (Jack Clark)",
+      "source": "Interconnects (Nathan Lambert)",
       "reason": "No new post in the last 7 days"
     }
   ]
