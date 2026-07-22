@@ -1,6 +1,6 @@
 {
-  "issue": 35,
-  "generated_at": "2026-07-20T15:01:10.749Z",
+  "issue": 36,
+  "generated_at": "2026-07-22T14:55:12.825Z",
   "items": [
     {
       "source": "Ahead of AI",
@@ -10,9 +10,22 @@
       "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt only gives a title and topic, not enough detail on how this works or what results it shows, so no build decision can be made yet.",
-        "If this concerns adjustable reasoning depth in AI models, it could later help control cost and speed tradeoffs in health-tech apps, worth tracking as more detail emerges.",
-        "Do not change any current AI integration plans based on this alone, the information here is too thin to act on."
+        "The excerpt only gives a title and topic, not enough detail to change any build decisions today.",
+        "Worth tracking because being able to dial reasoning effort up or down could let you control API costs and response speed for different features, like quick symptom triage versus detailed clinical summaries.",
+        "If this becomes a real product feature, it may let you use cheaper low-effort modes for simple tasks and reserve expensive high-effort modes for complex medical reasoning, but wait for more concrete details before planning around it."
+      ]
+    },
+    {
+      "source": "Latent Space",
+      "author": "swyx",
+      "date": "2026-07-22",
+      "title": "[AINews] AI Cybersecurity becomes top of mind",
+      "url": "https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top",
+      "verdict": "WATCH",
+      "takeaways": [
+        "The excerpt only signals that AI cybersecurity is trending in the news, without specifics, so there is nothing concrete to build from yet.",
+        "Keep an eye on this space since health-tech deals with sensitive patient data, making cybersecurity trends worth tracking even before details emerge.",
+        "Do not change any security roadmap or budget decisions based on this alone. Wait for the actual headlines or reports referenced before acting."
       ]
     },
     {
@@ -23,32 +36,28 @@
       "url": "https://jack-clark.net/2026/07/20/import-ai-465-open-vs-closed-gaps-kimi-k3-demis-big-policy-plan/",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt only teases topics (open vs closed model security gap, a new Kimi model, a policy plan) without enough detail to act on.",
-        "The mention that open-weight models are catching up to closed ones on cyber risk is worth tracking, since it may affect which AI models are seen as safe to use for handling sensitive health data.",
-        "No specific product, pricing, or capability details are given here, so there is nothing to build against yet. Just keep an eye on future issues for specifics."
+        "This excerpt is mostly a newsletter intro and headline teasers, not enough detail to act on yet.",
+        "The mention that open-source AI models are catching up to closed models on cyber capability is worth tracking, since it could affect security risk assessments for any AI tools you use later.",
+        "No specific product, pricing, or technical detail is given here, so there is nothing to build or change right now. Just note the topic and watch for a fuller report."
       ]
     },
     {
-      "source": "Latent Space",
-      "author": "swyx",
-      "date": "2026-07-18",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-830",
-      "verdict": "SKIP",
+      "source": "Interconnects",
+      "author": "Nathan Lambert",
+      "date": "2026-07-22",
+      "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
+      "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
+      "verdict": "WATCH",
       "takeaways": [
-        "This post has no real content, it just says it was a quiet day with nothing notable to report.",
-        "There is nothing here that affects any build decisions for your health-tech product.",
-        "No action needed, just move on to other sources for updates."
+        "This excerpt is just a podcast title and one line, with no real detail on what was said, so there is nothing concrete to act on yet.",
+        "Open source AI models are evolving fast (new Kimi and Qwen versions mentioned), which is worth tracking since cheaper or more capable open models could lower your AI costs later.",
+        "No build decision should change based on this alone; wait for a fuller summary or the actual podcast content before drawing conclusions."
       ]
     }
   ],
   "misses": [
     {
       "source": "One Useful Thing (Ethan Mollick)",
-      "reason": "No new post in the last 7 days"
-    },
-    {
-      "source": "Interconnects (Nathan Lambert)",
       "reason": "No new post in the last 7 days"
     }
   ]
