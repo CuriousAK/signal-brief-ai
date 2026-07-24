@@ -1,7 +1,20 @@
 {
-  "issue": 36,
-  "generated_at": "2026-07-22T14:55:12.825Z",
+  "issue": 37,
+  "generated_at": "2026-07-24T14:44:08.481Z",
   "items": [
+    {
+      "source": "One Useful Thing",
+      "author": "Ethan Mollick",
+      "date": "2026-07-23",
+      "title": "An opinionated guide to which AI to use to do stuff",
+      "url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22",
+      "verdict": "WATCH",
+      "takeaways": [
+        "The title alone suggests a general AI tool comparison guide, but the excerpt has no actual details on which tools do what or how they differ.",
+        "Without specifics on capabilities, pricing, or use cases, there is nothing here to justify changing a build decision right now.",
+        "Worth a quick read when time allows in case it flags a tool that fits a specific need like coding, writing, or data analysis, but no urgent action needed."
+      ]
+    },
     {
       "source": "Ahead of AI",
       "author": "Sebastian Raschka",
@@ -10,22 +23,22 @@
       "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt only gives a title and topic, not enough detail to change any build decisions today.",
-        "Worth tracking because being able to dial reasoning effort up or down could let you control API costs and response speed for different features, like quick symptom triage versus detailed clinical summaries.",
-        "If this becomes a real product feature, it may let you use cheaper low-effort modes for simple tasks and reserve expensive high-effort modes for complex medical reasoning, but wait for more concrete details before planning around it."
+        "This excerpt only gives a title and one-line description, not enough detail to justify a build decision now.",
+        "The general topic, letting an AI model use less or more reasoning depending on task difficulty, could matter later for controlling cost and speed in health-tech apps, so worth tracking as the field develops.",
+        "If you use AI for things like symptom triage or note summarization, watch for future posts with real benchmarks showing how effort settings affect accuracy and cost before changing anything in your product."
       ]
     },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-07-22",
-      "title": "[AINews] AI Cybersecurity becomes top of mind",
-      "url": "https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top",
+      "date": "2026-07-24",
+      "title": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
+      "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt only signals that AI cybersecurity is trending in the news, without specifics, so there is nothing concrete to build from yet.",
-        "Keep an eye on this space since health-tech deals with sensitive patient data, making cybersecurity trends worth tracking even before details emerge.",
-        "Do not change any security roadmap or budget decisions based on this alone. Wait for the actual headlines or reports referenced before acting."
+        "This is about image and video generation models, not something a health-tech product likely needs right now unless you are building patient-facing visual content or media tools.",
+        "The excerpt is too thin to judge real capabilities or costs, it is mostly hype language with no concrete details on pricing, access, or use cases.",
+        "Keep this on a watch list in case future versions offer relevant applications like medical imaging analysis, but no action is needed today."
       ]
     },
     {
@@ -36,9 +49,9 @@
       "url": "https://jack-clark.net/2026/07/20/import-ai-465-open-vs-closed-gaps-kimi-k3-demis-big-policy-plan/",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is mostly a newsletter intro and headline teasers, not enough detail to act on yet.",
-        "The mention that open-source AI models are catching up to closed models on cyber capability is worth tracking, since it could affect security risk assessments for any AI tools you use later.",
-        "No specific product, pricing, or technical detail is given here, so there is nothing to build or change right now. Just note the topic and watch for a fuller report."
+        "The excerpt is mostly headlines with no real detail, so there is nothing concrete to act on yet.",
+        "One item worth tracking: UK government researchers say open source AI models are catching up to closed models on cyber security risks, which could affect what security safeguards you need regardless of which type of AI model you choose.",
+        "Wait for a fuller writeup before changing any build plans based on this newsletter issue."
       ]
     },
     {
@@ -49,16 +62,11 @@
       "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is just a podcast title and one line, with no real detail on what was said, so there is nothing concrete to act on yet.",
-        "Open source AI models are evolving fast (new Kimi and Qwen versions mentioned), which is worth tracking since cheaper or more capable open models could lower your AI costs later.",
-        "No build decision should change based on this alone; wait for a fuller summary or the actual podcast content before drawing conclusions."
+        "This is just a podcast teaser with no real details, so there is nothing concrete to act on yet.",
+        "Open source AI models are advancing fast, which could mean cheaper or more flexible options for your product later, but wait for specifics before changing plans.",
+        "Keep an eye on future posts from this source for actual details on model capabilities or costs that might affect build decisions."
       ]
     }
   ],
-  "misses": [
-    {
-      "source": "One Useful Thing (Ethan Mollick)",
-      "reason": "No new post in the last 7 days"
-    }
-  ]
+  "misses": []
 }
