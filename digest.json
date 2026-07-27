@@ -1,6 +1,6 @@
 {
-  "issue": 37,
-  "generated_at": "2026-07-24T14:44:08.481Z",
+  "issue": 38,
+  "generated_at": "2026-07-27T15:36:09.990Z",
   "items": [
     {
       "source": "One Useful Thing",
@@ -10,48 +10,35 @@
       "url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22",
       "verdict": "WATCH",
       "takeaways": [
-        "The title alone suggests a general AI tool comparison guide, but the excerpt has no actual details on which tools do what or how they differ.",
-        "Without specifics on capabilities, pricing, or use cases, there is nothing here to justify changing a build decision right now.",
-        "Worth a quick read when time allows in case it flags a tool that fits a specific need like coding, writing, or data analysis, but no urgent action needed."
-      ]
-    },
-    {
-      "source": "Ahead of AI",
-      "author": "Sebastian Raschka",
-      "date": "2026-07-18",
-      "title": "Controlling Reasoning Effort in LLMs",
-      "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-      "verdict": "WATCH",
-      "takeaways": [
-        "This excerpt only gives a title and one-line description, not enough detail to justify a build decision now.",
-        "The general topic, letting an AI model use less or more reasoning depending on task difficulty, could matter later for controlling cost and speed in health-tech apps, so worth tracking as the field develops.",
-        "If you use AI for things like symptom triage or note summarization, watch for future posts with real benchmarks showing how effort settings affect accuracy and cost before changing anything in your product."
+        "The excerpt only gives a title and a date label, with no actual details on which AI tools are recommended or why.",
+        "Once the full guide is available, check it for any specific tool recommendations relevant to health-tech workflows like documentation, patient communication, or coding.",
+        "No action to take now since there is not enough information here to justify any build decision."
       ]
     },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-07-24",
-      "title": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
-      "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
+      "date": "2026-07-25",
+      "title": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+      "url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
       "verdict": "WATCH",
       "takeaways": [
-        "This is about image and video generation models, not something a health-tech product likely needs right now unless you are building patient-facing visual content or media tools.",
-        "The excerpt is too thin to judge real capabilities or costs, it is mostly hype language with no concrete details on pricing, access, or use cases.",
-        "Keep this on a watch list in case future versions offer relevant applications like medical imaging analysis, but no action is needed today."
+        "This excerpt is just a headline and a one-line joke, so there is not enough real detail here to justify any build decision yet.",
+        "It hints at a new Anthropic model (Opus 5) being priced lower than a competitor (Fable), which could matter for AI costs later, but wait for actual pricing and capability details before acting.",
+        "Keep an eye out for a fuller writeup with real numbers before deciding if this changes what AI vendor or model you use in your product."
       ]
     },
     {
       "source": "Import AI",
       "author": "Jack Clark",
-      "date": "2026-07-20",
-      "title": "Import AI 465: Open vs closed gaps; Kimi K3; Demis’ big policy plan",
-      "url": "https://jack-clark.net/2026/07/20/import-ai-465-open-vs-closed-gaps-kimi-k3-demis-big-policy-plan/",
+      "date": "2026-07-27",
+      "title": "Import AI 466: The bitter lesson for robotics, AIs complete week-long programming tasks; and OpenAI’s accidental AI hacker",
+      "url": "https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt is mostly headlines with no real detail, so there is nothing concrete to act on yet.",
-        "One item worth tracking: UK government researchers say open source AI models are catching up to closed models on cyber security risks, which could affect what security safeguards you need regardless of which type of AI model you choose.",
-        "Wait for a fuller writeup before changing any build plans based on this newsletter issue."
+        "This excerpt only gives headlines and a one-line mention of a new coding benchmark, not enough detail to change any build decisions today.",
+        "Worth tracking: if AI systems are getting better at long, multi-step programming tasks, that could eventually speed up building custom health-tech software, but this snippet does not show real results yet.",
+        "The robotics and OpenAI hacking story titles are not explained in the text, so there is nothing concrete here to act on until more detail is available."
       ]
     },
     {
@@ -62,11 +49,16 @@
       "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
       "verdict": "WATCH",
       "takeaways": [
-        "This is just a podcast teaser with no real details, so there is nothing concrete to act on yet.",
-        "Open source AI models are advancing fast, which could mean cheaper or more flexible options for your product later, but wait for specifics before changing plans.",
-        "Keep an eye on future posts from this source for actual details on model capabilities or costs that might affect build decisions."
+        "This excerpt is just a podcast title and guest name, with no real detail on findings, so there is nothing concrete to act on yet.",
+        "Track this series casually since it covers open source AI model trends like Kimi and Qwen, which could affect future build vs buy decisions on AI models.",
+        "Do not change any current technical plans based on this post alone; wait for a fuller summary or the actual podcast content."
       ]
     }
   ],
-  "misses": []
+  "misses": [
+    {
+      "source": "Ahead of AI (Sebastian Raschka)",
+      "reason": "No new post in the last 7 days"
+    }
+  ]
 }
