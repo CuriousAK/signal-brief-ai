@@ -1,6 +1,6 @@
 {
-  "issue": 38,
-  "generated_at": "2026-07-27T15:36:09.990Z",
+  "issue": 39,
+  "generated_at": "2026-07-29T15:25:20.683Z",
   "items": [
     {
       "source": "One Useful Thing",
@@ -10,22 +10,22 @@
       "url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt only gives a title and a date label, with no actual details on which AI tools are recommended or why.",
-        "Once the full guide is available, check it for any specific tool recommendations relevant to health-tech workflows like documentation, patient communication, or coding.",
-        "No action to take now since there is not enough information here to justify any build decision."
+        "The excerpt only gives a title and date, with no actual model comparisons or recommendations included, so there is nothing concrete to act on yet.",
+        "Worth reading the full guide once available since it may compare AI tools you could use for building or running your product, but do not change any build plans based on this snippet alone.",
+        "Set a reminder to check the full post before making any AI vendor or model choice, since a title alone cannot tell you which tool fits your health-tech use case."
       ]
     },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-07-25",
-      "title": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
-      "url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+      "date": "2026-07-29",
+      "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
+      "url": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is just a headline and a one-line joke, so there is not enough real detail here to justify any build decision yet.",
-        "It hints at a new Anthropic model (Opus 5) being priced lower than a competitor (Fable), which could matter for AI costs later, but wait for actual pricing and capability details before acting.",
-        "Keep an eye out for a fuller writeup with real numbers before deciding if this changes what AI vendor or model you use in your product."
+        "Major AI labs signing a letter about slowing AI development signals possible future regulation or self-imposed limits, which could affect which AI models you can access or how they are governed.",
+        "The mention of a machine-speed cyberattack is a reminder to keep security review active for any AI tools you integrate, especially around automated attack patterns.",
+        "This excerpt is too thin on specifics to justify changing your build plans now. Track for follow-up details before making any decisions."
       ]
     },
     {
@@ -36,28 +36,19 @@
       "url": "https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt only gives headlines and a one-line mention of a new coding benchmark, not enough detail to change any build decisions today.",
-        "Worth tracking: if AI systems are getting better at long, multi-step programming tasks, that could eventually speed up building custom health-tech software, but this snippet does not show real results yet.",
-        "The robotics and OpenAI hacking story titles are not explained in the text, so there is nothing concrete here to act on until more detail is available."
-      ]
-    },
-    {
-      "source": "Interconnects",
-      "author": "Nathan Lambert",
-      "date": "2026-07-22",
-      "title": "Open models recap: more on Kimi K3, Qwen 3.8, Xi's WAIC speech, distillation, the open-closed gap, and what's next",
-      "url": "https://www.interconnects.ai/p/open-models-recap-more-on-kimi-k3",
-      "verdict": "WATCH",
-      "takeaways": [
-        "This excerpt is just a podcast title and guest name, with no real detail on findings, so there is nothing concrete to act on yet.",
-        "Track this series casually since it covers open source AI model trends like Kimi and Qwen, which could affect future build vs buy decisions on AI models.",
-        "Do not change any current technical plans based on this post alone; wait for a fuller summary or the actual podcast content."
+        "This excerpt is too thin to act on. It only mentions a new benchmark for testing AI on long, multi-step coding tasks, with no details on results or how it applies to health-tech.",
+        "Worth tracking: if future issues show AI reliably handling week-long coding projects, that could speed up building your product features, but nothing here confirms that yet.",
+        "Do not change any build plans based on this snippet alone. Wait for a fuller summary or the actual data before drawing conclusions."
       ]
     }
   ],
   "misses": [
     {
       "source": "Ahead of AI (Sebastian Raschka)",
+      "reason": "No new post in the last 7 days"
+    },
+    {
+      "source": "Interconnects (Nathan Lambert)",
       "reason": "No new post in the last 7 days"
     }
   ]
