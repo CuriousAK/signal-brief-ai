@@ -1,31 +1,18 @@
 {
-  "issue": 39,
-  "generated_at": "2026-07-29T15:25:20.683Z",
+  "issue": 40,
+  "generated_at": "2026-07-31T15:12:53.213Z",
   "items": [
-    {
-      "source": "One Useful Thing",
-      "author": "Ethan Mollick",
-      "date": "2026-07-23",
-      "title": "An opinionated guide to which AI to use to do stuff",
-      "url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22",
-      "verdict": "WATCH",
-      "takeaways": [
-        "The excerpt only gives a title and date, with no actual model comparisons or recommendations included, so there is nothing concrete to act on yet.",
-        "Worth reading the full guide once available since it may compare AI tools you could use for building or running your product, but do not change any build plans based on this snippet alone.",
-        "Set a reminder to check the full post before making any AI vendor or model choice, since a title alone cannot tell you which tool fits your health-tech use case."
-      ]
-    },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-07-29",
-      "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
-      "url": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
+      "date": "2026-07-31",
+      "title": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
+      "url": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
       "verdict": "WATCH",
       "takeaways": [
-        "Major AI labs signing a letter about slowing AI development signals possible future regulation or self-imposed limits, which could affect which AI models you can access or how they are governed.",
-        "The mention of a machine-speed cyberattack is a reminder to keep security review active for any AI tools you integrate, especially around automated attack patterns.",
-        "This excerpt is too thin on specifics to justify changing your build plans now. Track for follow-up details before making any decisions."
+        "The excerpt is just a headline with no real detail on what changed or why, so there is not enough here to justify a build decision today.",
+        "If AI model costs are dropping sharply, it is worth keeping an eye on since it could make AI features cheaper to run in your product later.",
+        "Do not switch models or redesign your AI features based on this alone. Wait for more concrete details on pricing and capability before acting."
       ]
     },
     {
@@ -36,13 +23,17 @@
       "url": "https://jack-clark.net/2026/07/27/import-ai-466-the-bitter-lesson-for-robotics-ais-complete-week-long-programming-tasks-and-openais-accidental-ai-hacker/",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is too thin to act on. It only mentions a new benchmark for testing AI on long, multi-step coding tasks, with no details on results or how it applies to health-tech.",
-        "Worth tracking: if future issues show AI reliably handling week-long coding projects, that could speed up building your product features, but nothing here confirms that yet.",
-        "Do not change any build plans based on this snippet alone. Wait for a fuller summary or the actual data before drawing conclusions."
+        "This excerpt only mentions a new benchmark for testing how well AI handles long, complex coding tasks, with no real detail on results or capabilities yet.",
+        "Worth tracking because if AI coding tools improve at long multi-step tasks, it could eventually speed up building health-tech software, but there is nothing actionable here yet.",
+        "Do not change any build plans based on this alone. Wait for a fuller writeup with actual performance numbers before treating this as relevant to your roadmap."
       ]
     }
   ],
   "misses": [
+    {
+      "source": "One Useful Thing (Ethan Mollick)",
+      "reason": "No new post in the last 7 days"
+    },
     {
       "source": "Ahead of AI (Sebastian Raschka)",
       "reason": "No new post in the last 7 days"
