@@ -1,44 +1,44 @@
 {
-  "issue": 43,
-  "generated_at": "2026-08-07T14:04:43.421Z",
+  "issue": 44,
+  "generated_at": "2026-08-10T14:12:04.777Z",
   "items": [
-    {
-      "source": "Latent Space",
-      "author": "swyx",
-      "date": "2026-08-07",
-      "title": "[AINews] AMD buys Taalas",
-      "url": "https://www.latent.space/p/ainews-amd-buys-taalas",
-      "verdict": "WATCH",
-      "takeaways": [
-        "This is just a headline and one vague line, not enough detail to change any build decisions today.",
-        "AMD buying an inference-focused company suggests AI chip and inference costs may keep shifting, worth tracking if you plan to run AI models at scale.",
-        "No specifics on pricing, availability, or timelines are given, so hold off on acting until more concrete information comes out."
-      ]
-    },
     {
       "source": "Import AI",
       "author": "Jack Clark",
-      "date": "2026-08-03",
-      "title": "Import AI 467: Self-sustaining AI viruses; pacing AI progress; confusion about AI and creativity",
-      "url": "https://jack-clark.net/2026/08/03/import-ai-467-self-sustaining-ai-viruses-pacing-ai-progress-confusion-about-ai-and-creativity/",
+      "date": "2026-08-10",
+      "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
+      "url": "https://jack-clark.net/2026/08/10/import-ai-468-23-rsi-ideas-posttrainbench-and-how-trust-and-transparency-interplay-with-ai-racing/",
       "verdict": "WATCH",
       "takeaways": [
-        "This describes AI systems that can self-replicate and spread on their own, which is a security research development, not a health-tech feature to build.",
-        "Watch how this affects security expectations for any product using open weight AI models, since it hints at new attack risks in AI-powered software.",
-        "The excerpt is too thin to know technical details or timelines, so no immediate action is needed beyond staying aware of AI security news."
+        "This excerpt is too thin to judge, it only lists newsletter section titles without real detail on the RSI policy ideas, PostTrainBench, or the AI racing discussion.",
+        "Watch for the full newsletter content later, since AI policy recommendations could eventually affect compliance or safety expectations for health-tech AI tools.",
+        "No action needed now, nothing here changes a build decision today."
       ]
     },
     {
       "source": "Interconnects",
       "author": "Nathan Lambert",
-      "date": "2026-08-03",
-      "title": "Introducing our Artifacts Hub and Adoption Dashboard",
-      "url": "https://www.interconnects.ai/p/introducing-our-artifacts-hub-and",
+      "date": "2026-08-10",
+      "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
+      "url": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
       "verdict": "WATCH",
       "takeaways": [
-        "This is just a title and one-line description about a hub tracking open-source AI models, not enough detail to act on.",
-        "If you rely on open-source AI models for your product, a dashboard tracking their adoption could later help you pick which ones to trust, but wait for more details.",
-        "No specific tool, data, or number is given here, so there is nothing to build against yet."
+        "This is a book announcement about post-training methods for AI models, but the excerpt gives no specific techniques or numbers to act on yet.",
+        "If you have engineers fine-tuning AI models for clinical or patient-facing features, have them review the book once available to see if it improves model quality or safety.",
+        "No build decision should change based on this excerpt alone; just flag it for your technical team to check later."
+      ]
+    },
+    {
+      "source": "Latent Space",
+      "author": "swyx",
+      "date": "2026-08-08",
+      "title": "[AINews] Zawinski's Law of MultiAgents",
+      "url": "https://www.latent.space/p/ainews-zawinskis-law-of-multiagents",
+      "verdict": "SKIP",
+      "takeaways": [
+        "This excerpt is just a title and teaser line with no real details, so there is nothing concrete to act on yet.",
+        "The reference to multi-agent AI systems is a trend worth tracking generally, but not something to build against based on this alone.",
+        "Ignore this for now and revisit if a fuller article with specifics on multi-agent design or risks becomes available."
       ]
     }
   ],
