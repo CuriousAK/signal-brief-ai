@@ -1,44 +1,31 @@
 {
-  "issue": 44,
-  "generated_at": "2026-08-10T14:12:04.777Z",
+  "issue": 45,
+  "generated_at": "2026-08-12T14:13:03.561Z",
   "items": [
     {
-      "source": "Import AI",
-      "author": "Jack Clark",
-      "date": "2026-08-10",
-      "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
-      "url": "https://jack-clark.net/2026/08/10/import-ai-468-23-rsi-ideas-posttrainbench-and-how-trust-and-transparency-interplay-with-ai-racing/",
+      "source": "Latent Space",
+      "author": "swyx",
+      "date": "2026-08-12",
+      "title": "[AINews] How to steal a Reasoning Trace",
+      "url": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is too thin to judge, it only lists newsletter section titles without real detail on the RSI policy ideas, PostTrainBench, or the AI racing discussion.",
-        "Watch for the full newsletter content later, since AI policy recommendations could eventually affect compliance or safety expectations for health-tech AI tools.",
-        "No action needed now, nothing here changes a build decision today."
+        "This is a technical newsletter snippet about AI research methods (model distillation and speculative decoding), not a specific product or tool you can use today.",
+        "The title suggests a discussion about copying or extracting how AI models reason, which could matter later for AI vendor selection or contract terms, but there is not enough detail here to act on now.",
+        "Keep this on your radar but do not change any build plans based on this excerpt alone. Ask your technical advisor to summarize the full article if you want more context."
       ]
     },
     {
       "source": "Interconnects",
       "author": "Nathan Lambert",
-      "date": "2026-08-10",
-      "title": "5 useful things you'll learn in my new post-training textbook (shipping now!)",
-      "url": "https://www.interconnects.ai/p/5-useful-things-youll-learn-in-my",
+      "date": "2026-08-12",
+      "title": "I wrote an AI textbook — how long until AI can do it better?",
+      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
       "verdict": "WATCH",
       "takeaways": [
-        "This is a book announcement about post-training methods for AI models, but the excerpt gives no specific techniques or numbers to act on yet.",
-        "If you have engineers fine-tuning AI models for clinical or patient-facing features, have them review the book once available to see if it improves model quality or safety.",
-        "No build decision should change based on this excerpt alone; just flag it for your technical team to check later."
-      ]
-    },
-    {
-      "source": "Latent Space",
-      "author": "swyx",
-      "date": "2026-08-08",
-      "title": "[AINews] Zawinski's Law of MultiAgents",
-      "url": "https://www.latent.space/p/ainews-zawinskis-law-of-multiagents",
-      "verdict": "SKIP",
-      "takeaways": [
-        "This excerpt is just a title and teaser line with no real details, so there is nothing concrete to act on yet.",
-        "The reference to multi-agent AI systems is a trend worth tracking generally, but not something to build against based on this alone.",
-        "Ignore this for now and revisit if a fuller article with specifics on multi-agent design or risks becomes available."
+        "The excerpt only reflects on AI writing ability and model capability growth, with no concrete detail to act on yet.",
+        "Track this if you rely on AI to draft technical or educational content, since author quality is a moving target.",
+        "Not enough specifics here to change any build decision now, just worth revisiting if a fuller version with data or benchmarks appears."
       ]
     }
   ],
@@ -50,6 +37,10 @@
     {
       "source": "Ahead of AI (Sebastian Raschka)",
       "reason": "No new post in the last 7 days"
+    },
+    {
+      "source": "Import AI (Jack Clark)",
+      "reason": "Feed unreachable, check the feed URL"
     }
   ]
 }
