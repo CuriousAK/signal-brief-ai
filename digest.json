@@ -1,44 +1,42 @@
 {
-  "issue": 46,
-  "generated_at": "2026-08-14T14:08:18.951Z",
+  "issue": 47,
+  "generated_at": "2026-08-17T13:31:59.735Z",
   "items": [
     {
-      "source": "Latent Space",
-      "author": "swyx",
-      "date": "2026-08-14",
-      "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
-      "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+      "source": "Ahead of AI",
+      "author": "Sebastian Raschka",
+      "date": "2026-08-15",
+      "title": "Building an AI Text Detector From Scratch",
+      "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
       "verdict": "WATCH",
       "takeaways": [
-        "The title mentions a new Gemini model update, but the excerpt gives no details on pricing, speed, or capabilities so there is nothing actionable yet.",
-        "Keep an eye out for a fuller announcement before deciding if this affects any AI vendor or model choice in your product.",
-        "Do not switch or commit engineering time based on this alone, the text is too thin to judge real impact."
+        "Could not parse an analysis for this item. Read the original."
       ]
     },
     {
-      "source": "Import AI",
-      "author": "Jack Clark",
-      "date": "2026-08-10",
-      "title": "Import AI 468: 23 RSI ideas; PostTrainBench+; and how trust and transparency interplay with AI racing",
-      "url": "https://jack-clark.net/2026/08/10/import-ai-468-23-rsi-ideas-posttrainbench-and-how-trust-and-transparency-interplay-with-ai-racing/",
+      "source": "Latent Space",
+      "author": "swyx",
+      "date": "2026-08-15",
+      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+      "url": "https://www.latent.space/p/flue-2",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is mostly newsletter intro and headlines, not enough detail to act on.",
-        "It mentions policy ideas around RSI (recursive self-improvement) and AI racing trust issues, which could affect future AI regulation but nothing concrete yet.",
-        "Worth skimming the full newsletter later if you use AI models in your product, but no build decision needed now."
+        "This is a new framework for building AI agents, similar to how React helps build websites, but it is too early and too thin on details to change any build decisions now.",
+        "If your team builds custom AI agents in house, it is worth having your developers glance at this to see if it simplifies their work, but do not prioritize it.",
+        "No specific health-tech use case or proof this works at scale is mentioned, so treat this as background noise for now, not a reason to change your roadmap."
       ]
     },
     {
       "source": "Interconnects",
       "author": "Nathan Lambert",
-      "date": "2026-08-12",
-      "title": "I wrote an AI textbook — how long until AI can do it better?",
-      "url": "https://www.interconnects.ai/p/i-wrote-an-ai-textbook-how-long-until",
+      "date": "2026-08-14",
+      "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt is just a title and short description with no real detail on capabilities or timelines, so there is nothing concrete to act on yet.",
-        "Worth tracking because it touches on how fast AI writing quality improves, which matters if you plan to use AI to draft patient materials, documentation, or training content.",
-        "Do not change any build plans based on this alone, wait for the actual article content before drawing conclusions."
+        "The excerpt only teases that a Chinese lab's new model (GLM-5.3) keeps pace with top AI labs without simply copying them, but gives no technical or product details to act on.",
+        "Worth tracking because more competitive, possibly cheaper model options could later reduce your AI costs or give you backup vendors, but there is nothing here to change your build plans today.",
+        "Ignore for now, revisit if a follow-up post explains pricing, capabilities, or licensing terms relevant to health-tech use cases."
       ]
     }
   ],
@@ -48,7 +46,7 @@
       "reason": "No new post in the last 7 days"
     },
     {
-      "source": "Ahead of AI (Sebastian Raschka)",
+      "source": "Import AI (Jack Clark)",
       "reason": "No new post in the last 7 days"
     }
   ]
