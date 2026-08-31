@@ -1,50 +1,50 @@
 {
-  "issue": 51,
-  "generated_at": "2026-08-28T22:47:14.861Z",
+  "issue": 52,
+  "generated_at": "2026-08-31T19:17:55.021Z",
   "items": [
     {
-      "source": "Ahead of AI",
-      "author": "Sebastian Raschka",
-      "date": "2026-08-22",
-      "title": "How Claude Watermarks AI-Generated Text",
-      "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+      "source": "One Useful Thing",
+      "author": "Ethan Mollick",
+      "date": "2026-08-31",
+      "title": "Agency and Agents",
+      "url": "https://www.oneusefulthing.org/p/agency-and-agents",
       "verdict": "WATCH",
       "takeaways": [
-        "This is a technical explainer on how Claude marks AI-generated text and how that marking can be detected or removed, not something to build against right now.",
-        "If your product needs to prove content was AI-written (for compliance or patient trust), keep an eye on watermarking reliability since the video suggests it can be removed.",
-        "The excerpt is too thin to judge real-world accuracy or business impact, so just track this topic rather than act on it."
+        "The excerpt only gives a title and topic tease (AI agents and autonomy), not enough detail on what actually happened or what was learned.",
+        "If your product roadmap includes AI agents that take actions on their own (like scheduling, messaging patients, or updating records), watch for the full post since it likely covers real risks of letting agents act without close human oversight.",
+        "No concrete facts here yet, so do not change any build plans based on this excerpt alone."
       ]
     },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-08-28",
-      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
-      "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+      "date": "2026-08-29",
+      "title": "[AINews] OpenAI shuts off Cursor",
+      "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt is just a headline and hype phrase with no real detail on what changed or what evidence backs the claim.",
-        "Nothing here tells you to change your product or roadmap today, so treat this as a rumor to track, not a signal to act on.",
-        "If you want to use this, wait for a follow up with specifics on capabilities, pricing, or release dates before making any build decisions."
+        "This is just a headline and one line, not enough detail to know what actually happened or why.",
+        "If true, it suggests that relying on one AI provider (like OpenAI) can be risky if that provider cuts off access due to business disputes, so avoid building your product with only one AI vendor as a single point of failure.",
+        "Watch for more details on this story before making any changes to your AI vendor strategy."
       ]
     },
     {
       "source": "Import AI",
       "author": "Jack Clark",
-      "date": "2026-08-24",
-      "title": "Import AI 470: No rights for machines; automating environment generation with SPADE; and building better GPU kernels with Hawkeye",
-      "url": "https://jack-clark.net/2026/08/24/import-ai-470-no-rights-for-machines-automating-environment-generation-with-spade-and-building-better-gpu-kernels-with-hawkeye/",
-      "verdict": "WATCH",
+      "date": "2026-08-31",
+      "title": "Import AI 471: Why Hugging Face worries me; space mining; FIve Eyes on AI",
+      "url": "https://jack-clark.net/2026/08/31/import-ai-471-why-hugging-face-worries-me-space-mining-five-eyes-on-ai/",
+      "verdict": "SKIP",
       "takeaways": [
-        "The excerpt only mentions topic titles like machine rights, environment generation, and GPU kernels, with no details on what was found or why it matters.",
-        "There is a mention of a METR study on where AI is speeding up progress, which could be worth reading in full later to see if it applies to health-tech workflows.",
-        "Not enough concrete information here to change any build decisions right now, just track for the full article."
+        "This excerpt is just a newsletter intro with no actual content about the AI research or news it covers.",
+        "There is nothing here about Hugging Face, space mining, or the Five Eyes AI topic mentioned in the title, so no real conclusions can be drawn.",
+        "Not worth acting on now, but if you see the full issue later it may be worth a quick scan given the topics listed in the title."
       ]
     }
   ],
   "misses": [
     {
-      "source": "One Useful Thing (Ethan Mollick)",
+      "source": "Ahead of AI (Sebastian Raschka)",
       "reason": "No new post in the last 7 days"
     },
     {
