@@ -1,31 +1,18 @@
 {
-  "issue": 58,
-  "generated_at": "2026-09-14T18:15:19.635Z",
+  "issue": 59,
+  "generated_at": "2026-09-16T17:22:27.986Z",
   "items": [
-    {
-      "source": "Ahead of AI",
-      "author": "Sebastian Raschka",
-      "date": "2026-09-09",
-      "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
-      "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-      "verdict": "WATCH",
-      "takeaways": [
-        "This is early research about a new AI model design (looping transformer blocks) that may improve reasoning, not a ready-to-use tool yet.",
-        "No product, pricing, or API details are mentioned, so there is nothing to integrate or change in your app today.",
-        "Worth tracking because if this approach becomes mainstream, future AI models might reason better or cheaper, which could affect which AI vendor you choose later."
-      ]
-    },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-09-14",
-      "title": "Humanity’s Last Invention — Richard Socher of Recursive",
-      "url": "https://www.latent.space/p/recursive",
+      "date": "2026-09-16",
+      "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
+      "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
       "verdict": "WATCH",
       "takeaways": [
-        "This is about a well known AI researcher starting a new company focused on self-improving AI systems, but the excerpt gives no product details relevant to health-tech.",
-        "The $5B valuation shows investors are betting big on this kind of AI research, which is worth tracking as it may lead to more powerful general AI tools later.",
-        "No action needed now. Just keep an eye on what this startup actually builds before considering any use in your product."
+        "The excerpt is just a headline and a congratulations note, with no real detail on how this model works or what it costs to use.",
+        "If true, a cheaper faster model for simple decisions like routing or classifying could lower costs in things like triaging patient messages, but there is not enough here to act on yet.",
+        "Keep an eye out for more details before considering it for any build decisions."
       ]
     },
     {
@@ -36,15 +23,19 @@
       "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
       "verdict": "WATCH",
       "takeaways": [
-        "This is just a reading list title with no specifics, so there is nothing concrete to act on yet.",
-        "Open models are worth tracking generally since they can affect cost and control if you ever host your own AI instead of paying per API call.",
-        "Do not change any build plans based on this post alone, revisit once you find the actual content with real details."
+        "This is just a reading list link, not enough detail to change any build decisions right now.",
+        "Open-source AI models could matter later for cost control or data privacy, so worth tracking as background knowledge.",
+        "No action needed today, just flag this for review if open models become relevant to your product roadmap."
       ]
     }
   ],
   "misses": [
     {
       "source": "One Useful Thing (Ethan Mollick)",
+      "reason": "No new post in the last 7 days"
+    },
+    {
+      "source": "Ahead of AI (Sebastian Raschka)",
       "reason": "No new post in the last 7 days"
     },
     {
