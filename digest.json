@@ -1,31 +1,18 @@
 {
-  "issue": 59,
-  "generated_at": "2026-09-16T17:22:27.986Z",
+  "issue": 60,
+  "generated_at": "2026-09-18T16:47:19.556Z",
   "items": [
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-09-16",
-      "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
-      "url": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
-      "verdict": "WATCH",
+      "date": "2026-09-18",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-612",
+      "verdict": "SKIP",
       "takeaways": [
-        "The excerpt is just a headline and a congratulations note, with no real detail on how this model works or what it costs to use.",
-        "If true, a cheaper faster model for simple decisions like routing or classifying could lower costs in things like triaging patient messages, but there is not enough here to act on yet.",
-        "Keep an eye out for more details before considering it for any build decisions."
-      ]
-    },
-    {
-      "source": "Interconnects",
-      "author": "Nathan Lambert",
-      "date": "2026-09-11",
-      "title": "Open-Source AI & Open Models Reading List",
-      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
-      "verdict": "WATCH",
-      "takeaways": [
-        "This is just a reading list link, not enough detail to change any build decisions right now.",
-        "Open-source AI models could matter later for cost control or data privacy, so worth tracking as background knowledge.",
-        "No action needed today, just flag this for review if open models become relevant to your product roadmap."
+        "This post has no actual content, it just says it was a quiet day with nothing notable to report.",
+        "There is nothing here that affects any build decisions or product plans.",
+        "No action needed, just move on to other sources for real updates."
       ]
     }
   ],
@@ -40,6 +27,10 @@
     },
     {
       "source": "Import AI (Jack Clark)",
+      "reason": "No new post in the last 7 days"
+    },
+    {
+      "source": "Interconnects (Nathan Lambert)",
       "reason": "No new post in the last 7 days"
     }
   ]
