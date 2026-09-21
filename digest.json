@@ -1,36 +1,63 @@
 {
-  "issue": 60,
-  "generated_at": "2026-09-18T16:47:19.556Z",
+  "issue": 61,
+  "generated_at": "2026-09-21T18:22:34.664Z",
   "items": [
+    {
+      "source": "One Useful Thing",
+      "author": "Ethan Mollick",
+      "date": "2026-09-18",
+      "title": "The Overhang",
+      "url": "https://www.oneusefulthing.org/p/the-overhang",
+      "verdict": "WATCH",
+      "takeaways": [
+        "The excerpt only lists vague concepts like deep knowledge, wide knowledge, taste, and agency without explaining what they mean or how they apply, so there is nothing concrete to act on yet.",
+        "Track this piece in case a fuller version explains how these ideas translate into product features, but do not change any build plans based on this alone.",
+        "If you revisit this source later, look specifically for examples tied to health-tech workflows before drawing conclusions."
+      ]
+    },
+    {
+      "source": "Import AI",
+      "author": "Jack Clark",
+      "date": "2026-09-21",
+      "title": "Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
+      "url": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/",
+      "verdict": "WATCH",
+      "takeaways": [
+        "This excerpt is too thin to judge. It only mentions a RAND report about US AI strategy in vague terms, with no specifics on policy, funding, or regulation that would affect health-tech products.",
+        "Worth tracking because US government AI strategy could eventually shape rules around data, model access, or healthcare AI approval, but there is nothing actionable here yet.",
+        "No build decision should change based on this snippet alone. Wait for more concrete details before reacting."
+      ]
+    },
+    {
+      "source": "Interconnects",
+      "author": "Nathan Lambert",
+      "date": "2026-09-21",
+      "title": "The current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "verdict": "WATCH",
+      "takeaways": [
+        "This is a policy-level discussion about open versus closed AI models, not a specific tool or technique you can build with today.",
+        "Worth tracking because it may signal future shifts in which AI models are available, restricted, or favored by regulation, which could affect your vendor choices later.",
+        "The excerpt is too thin to tell you anything actionable right now, so no build decision should change based on this alone."
+      ]
+    },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-09-18",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-612",
+      "date": "2026-09-19",
+      "title": "[AINews] Here are 6 Clones of Jev in 2 days",
+      "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
       "verdict": "SKIP",
       "takeaways": [
-        "This post has no actual content, it just says it was a quiet day with nothing notable to report.",
-        "There is nothing here that affects any build decisions or product plans.",
-        "No action needed, just move on to other sources for real updates."
+        "This post is a lighthearted aggregator update with no technical or product detail included in the excerpt.",
+        "Nothing here informs a build, buy, or architecture decision for a health-tech product.",
+        "Safe to ignore unless a fuller version of the article surfaces with substantive content."
       ]
     }
   ],
   "misses": [
     {
-      "source": "One Useful Thing (Ethan Mollick)",
-      "reason": "No new post in the last 7 days"
-    },
-    {
       "source": "Ahead of AI (Sebastian Raschka)",
-      "reason": "No new post in the last 7 days"
-    },
-    {
-      "source": "Import AI (Jack Clark)",
-      "reason": "No new post in the last 7 days"
-    },
-    {
-      "source": "Interconnects (Nathan Lambert)",
       "reason": "No new post in the last 7 days"
     }
   ]
