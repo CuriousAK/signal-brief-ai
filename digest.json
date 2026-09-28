@@ -1,44 +1,31 @@
 {
-  "issue": 63,
-  "generated_at": "2026-09-25T17:37:20.599Z",
+  "issue": 64,
+  "generated_at": "2026-09-28T19:54:03.668Z",
   "items": [
-    {
-      "source": "One Useful Thing",
-      "author": "Ethan Mollick",
-      "date": "2026-09-18",
-      "title": "The Overhang",
-      "url": "https://www.oneusefulthing.org/p/the-overhang",
-      "verdict": "WATCH",
-      "takeaways": [
-        "The excerpt is just a title and phrase list, not enough detail to justify any build decision right now.",
-        "Track this piece since it seems to discuss using deep knowledge, wide knowledge, taste, and agency together, which could later inform how you scope AI features.",
-        "Do not act yet. Wait for the full article before deciding if it changes your product or hiring plans."
-      ]
-    },
     {
       "source": "Latent Space",
       "author": "swyx",
       "date": "2026-09-25",
-      "title": "[AINews] The Future of Latent Space",
-      "url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
+      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+      "url": "https://www.latent.space/p/openrouter",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is just a meta post about the newsletter itself, not a technical or product update, so there is nothing actionable here.",
-        "No details are given about any new tool, model, or capability that would affect what you build.",
-        "Keep watching this source for future posts, but this specific one does not require any decision or action."
+        "There are now many more AI model providers than expected, which means health-tech founders should avoid locking into just one AI vendor and instead build in a way that lets them switch models easily.",
+        "A major payments company buying an AI infrastructure company suggests AI model routing and management is becoming valuable business infrastructure, worth watching for tools that could simplify your own AI integrations.",
+        "This excerpt is too short to reveal specific product details or pricing changes, so treat this as a trend to monitor rather than a reason to change your build plans today."
       ]
     },
     {
       "source": "Import AI",
       "author": "Jack Clark",
-      "date": "2026-09-21",
-      "title": "Import AI 473: The US’s superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
-      "url": "https://jack-clark.net/2026/09/21/import-ai-473-the-uss-superintelligence-strategy-human-brain-in-a-mouse-skull-and-machine-hermeneutics/",
-      "verdict": "SKIP",
+      "date": "2026-09-28",
+      "title": "Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
+      "url": "https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/",
+      "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is just a newsletter intro about US AI policy strategy and has no specific detail relevant to product decisions.",
-        "Nothing here about tools, models, or techniques a health-tech team could act on.",
-        "Not worth tracking based on this snippet alone; revisit only if a fuller version with concrete details surfaces."
+        "This excerpt is mostly philosophical speculation about minds and patterns, not a concrete tool or technique you can build with today.",
+        "The newsletter title mentions other items like TPUs in space and an AI self-improvement loop, but no real details are given here to act on.",
+        "Worth a quick skim later if you have time, but nothing here should change your product roadmap right now."
       ]
     },
     {
@@ -49,13 +36,17 @@
       "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
       "verdict": "SKIP",
       "takeaways": [
-        "This excerpt is just a podcast title and topic list with no actual content or findings shared.",
-        "Topics like AI self-improvement and US-China AI competition are interesting to track long term, but nothing here is specific enough to act on.",
-        "Wait for a summary or transcript with real details before spending time on this."
+        "This is just a podcast title and topic list with no real detail, so there is nothing actionable to build from yet.",
+        "The topics (AI self-improvement, US-China AI competition, model inconsistency) are broad industry trends, not specific tools or findings a health-tech founder can apply now.",
+        "If interested, wait for a summary or transcript with concrete claims before deciding whether it affects your product or roadmap."
       ]
     }
   ],
   "misses": [
+    {
+      "source": "One Useful Thing (Ethan Mollick)",
+      "reason": "No new post in the last 7 days"
+    },
     {
       "source": "Ahead of AI (Sebastian Raschka)",
       "reason": "No new post in the last 7 days"
