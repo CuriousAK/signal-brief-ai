@@ -1,18 +1,31 @@
 {
-  "issue": 64,
-  "generated_at": "2026-09-28T19:54:03.668Z",
+  "issue": 65,
+  "generated_at": "2026-09-30T18:11:59.207Z",
   "items": [
+    {
+      "source": "Ahead of AI",
+      "author": "Sebastian Raschka",
+      "date": "2026-09-29",
+      "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
+      "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+      "verdict": "WATCH",
+      "takeaways": [
+        "This is a technical comparison of older and newer text classification methods, useful background if you need to classify patient messages, notes, or forms but not an immediate build decision.",
+        "Watch for the actual accuracy and efficiency numbers before picking a method, since simpler models may be cheaper to run and still accurate enough for tasks like sorting intake forms.",
+        "The excerpt does not give specific results or costs, so there is nothing concrete yet to act on, just a topic to keep an eye on if text classification is part of your product."
+      ]
+    },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-09-25",
-      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-      "url": "https://www.latent.space/p/openrouter",
+      "date": "2026-09-30",
+      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
       "verdict": "WATCH",
       "takeaways": [
-        "There are now many more AI model providers than expected, which means health-tech founders should avoid locking into just one AI vendor and instead build in a way that lets them switch models easily.",
-        "A major payments company buying an AI infrastructure company suggests AI model routing and management is becoming valuable business infrastructure, worth watching for tools that could simplify your own AI integrations.",
-        "This excerpt is too short to reveal specific product details or pricing changes, so treat this as a trend to monitor rather than a reason to change your build plans today."
+        "The title lists several new OpenAI products (Decisions API, Agents API, Spaces, Marketplace) but gives no details on what they actually do, so its too early to plan around them.",
+        "Keep an eye on the Agents API and Decisions API since these could later affect how you build automated health workflows, but wait for more concrete documentation before committing engineering time.",
+        "This excerpt alone is too thin to make any build decision, treat it as a signal to watch for a fuller writeup, not a reason to change your roadmap today."
       ]
     },
     {
@@ -21,24 +34,11 @@
       "date": "2026-09-28",
       "title": "Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
       "url": "https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/",
-      "verdict": "WATCH",
-      "takeaways": [
-        "This excerpt is mostly philosophical speculation about minds and patterns, not a concrete tool or technique you can build with today.",
-        "The newsletter title mentions other items like TPUs in space and an AI self-improvement loop, but no real details are given here to act on.",
-        "Worth a quick skim later if you have time, but nothing here should change your product roadmap right now."
-      ]
-    },
-    {
-      "source": "Interconnects",
-      "author": "Nathan Lambert",
-      "date": "2026-09-22",
-      "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
-      "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
       "verdict": "SKIP",
       "takeaways": [
-        "This is just a podcast title and topic list with no real detail, so there is nothing actionable to build from yet.",
-        "The topics (AI self-improvement, US-China AI competition, model inconsistency) are broad industry trends, not specific tools or findings a health-tech founder can apply now.",
-        "If interested, wait for a summary or transcript with concrete claims before deciding whether it affects your product or roadmap."
+        "This excerpt is just a newsletter intro and table of contents teaser, not enough detail to judge any real implication.",
+        "The topics mentioned (Platonic mindspace theory, TPUs in space, Zhipu research loop) are abstract or infrastructure research, not something that changes what you build in health-tech right now.",
+        "No concrete facts, numbers, or product-relevant details are present, so there is nothing actionable here."
       ]
     }
   ],
@@ -48,7 +48,7 @@
       "reason": "No new post in the last 7 days"
     },
     {
-      "source": "Ahead of AI (Sebastian Raschka)",
+      "source": "Interconnects (Nathan Lambert)",
       "reason": "No new post in the last 7 days"
     }
   ]
