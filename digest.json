@@ -1,7 +1,20 @@
 {
-  "issue": 65,
-  "generated_at": "2026-09-30T18:11:59.207Z",
+  "issue": 66,
+  "generated_at": "2026-10-02T18:06:57.868Z",
   "items": [
+    {
+      "source": "One Useful Thing",
+      "author": "Ethan Mollick",
+      "date": "2026-10-01",
+      "title": "The Dot and the Swarm",
+      "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "verdict": "WATCH",
+      "takeaways": [
+        "The excerpt only gives a title and a one-line teaser, not enough detail to know what specific capability or trend is being discussed.",
+        "The reference to the Bitter Lesson suggests the post may argue that scale and general methods beat hand-crafted solutions, which is worth tracking if you are deciding how much to invest in custom AI logic versus general models.",
+        "Hold off on any build decisions until you can read the full post and confirm what concrete claim or evidence it provides."
+      ]
+    },
     {
       "source": "Ahead of AI",
       "author": "Sebastian Raschka",
@@ -10,22 +23,22 @@
       "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
       "verdict": "WATCH",
       "takeaways": [
-        "This is a technical comparison of older and newer text classification methods, useful background if you need to classify patient messages, notes, or forms but not an immediate build decision.",
-        "Watch for the actual accuracy and efficiency numbers before picking a method, since simpler models may be cheaper to run and still accurate enough for tasks like sorting intake forms.",
-        "The excerpt does not give specific results or costs, so there is nothing concrete yet to act on, just a topic to keep an eye on if text classification is part of your product."
+        "This is a technical overview comparing text classification methods (older and newer), not a specific tool you can use today, so no immediate build decision is needed.",
+        "If you have a product feature involving sorting or tagging text (like patient messages, intake forms, or support tickets), keep this on your radar as a source for choosing the right model later.",
+        "The excerpt is too thin to tell if there are specific accuracy or cost findings that would change your current approach, so track it but do not act on it yet."
       ]
     },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-09-30",
-      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
-      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+      "date": "2026-10-02",
+      "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+      "url": "https://www.latent.space/p/airbnb",
       "verdict": "WATCH",
       "takeaways": [
-        "The title lists several new OpenAI products (Decisions API, Agents API, Spaces, Marketplace) but gives no details on what they actually do, so its too early to plan around them.",
-        "Keep an eye on the Agents API and Decisions API since these could later affect how you build automated health workflows, but wait for more concrete documentation before committing engineering time.",
-        "This excerpt alone is too thin to make any build decision, treat it as a signal to watch for a fuller writeup, not a reason to change your roadmap today."
+        "This is about Airbnb using AI internally and for guest experience, not a health-tech specific case study, so there is nothing to build from yet.",
+        "Worth tracking if later details emerge on how a large consumer company restructured teams around AI, since similar patterns could apply to patient-facing tools.",
+        "The excerpt is too thin on specifics to justify any action now, just note the source for future reference."
       ]
     },
     {
@@ -36,17 +49,13 @@
       "url": "https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/",
       "verdict": "SKIP",
       "takeaways": [
-        "This excerpt is just a newsletter intro and table of contents teaser, not enough detail to judge any real implication.",
-        "The topics mentioned (Platonic mindspace theory, TPUs in space, Zhipu research loop) are abstract or infrastructure research, not something that changes what you build in health-tech right now.",
-        "No concrete facts, numbers, or product-relevant details are present, so there is nothing actionable here."
+        "This excerpt is just a newsletter intro and philosophical musing about minds and patterns, not a concrete technical development.",
+        "Nothing here has a direct implication for product or engineering decisions in a health-tech startup.",
+        "Worth skipping unless later sections of the newsletter contain specific tools or research with practical applications."
       ]
     }
   ],
   "misses": [
-    {
-      "source": "One Useful Thing (Ethan Mollick)",
-      "reason": "No new post in the last 7 days"
-    },
     {
       "source": "Interconnects (Nathan Lambert)",
       "reason": "No new post in the last 7 days"
