@@ -1,6 +1,6 @@
 {
-  "issue": 66,
-  "generated_at": "2026-10-02T18:06:57.868Z",
+  "issue": 67,
+  "generated_at": "2026-10-07T19:07:40.831Z",
   "items": [
     {
       "source": "One Useful Thing",
@@ -10,54 +10,54 @@
       "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt only gives a title and a one-line teaser, not enough detail to know what specific capability or trend is being discussed.",
-        "The reference to the Bitter Lesson suggests the post may argue that scale and general methods beat hand-crafted solutions, which is worth tracking if you are deciding how much to invest in custom AI logic versus general models.",
-        "Hold off on any build decisions until you can read the full post and confirm what concrete claim or evidence it provides."
-      ]
-    },
-    {
-      "source": "Ahead of AI",
-      "author": "Sebastian Raschka",
-      "date": "2026-09-29",
-      "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
-      "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
-      "verdict": "WATCH",
-      "takeaways": [
-        "This is a technical overview comparing text classification methods (older and newer), not a specific tool you can use today, so no immediate build decision is needed.",
-        "If you have a product feature involving sorting or tagging text (like patient messages, intake forms, or support tickets), keep this on your radar as a source for choosing the right model later.",
-        "The excerpt is too thin to tell if there are specific accuracy or cost findings that would change your current approach, so track it but do not act on it yet."
+        "The excerpt only gives a title and a one line teaser, so there is not enough detail here to change any build decisions today.",
+        "The phrase 'Bitter Lesson' usually refers to the idea that scaling data and compute tends to beat hand crafted rules, so this may be relevant if you are deciding between building custom clinical logic versus leaning on larger general models.",
+        "Worth reading the full post before acting, since the actual argument and any concrete recommendations are not included in this excerpt."
       ]
     },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-10-02",
-      "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
-      "url": "https://www.latent.space/p/airbnb",
+      "date": "2026-10-07",
+      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+      "url": "https://www.latent.space/p/stacklok",
       "verdict": "WATCH",
       "takeaways": [
-        "This is about Airbnb using AI internally and for guest experience, not a health-tech specific case study, so there is nothing to build from yet.",
-        "Worth tracking if later details emerge on how a large consumer company restructured teams around AI, since similar patterns could apply to patient-facing tools.",
-        "The excerpt is too thin on specifics to justify any action now, just note the source for future reference."
+        "This is too thin to act on now. It only names two well known Kubernetes creators working on a new tool to run AI agents more reliably in the cloud, with no details on what it does or when it ships.",
+        "If you use AI agents in your product, keep an eye on this because reliability and infrastructure for agents is a real pain point, but do not change any build plans based on this alone.",
+        "Worth a 15 minute check back in a few months to see if they release something usable, especially if your team struggles with agents failing or behaving inconsistently."
       ]
     },
     {
       "source": "Import AI",
       "author": "Jack Clark",
-      "date": "2026-09-28",
-      "title": "Import AI 474: Platonic mindspace; TPUs in space; Zhipu starts an outer RSI loop",
-      "url": "https://jack-clark.net/2026/09/28/import-ai-474-platonic-mindspace-tpus-in-space-zhipu-starts-an-outer-rsi-loop/",
-      "verdict": "SKIP",
+      "date": "2026-10-05",
+      "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
+      "url": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/",
+      "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is just a newsletter intro and philosophical musing about minds and patterns, not a concrete technical development.",
-        "Nothing here has a direct implication for product or engineering decisions in a health-tech startup.",
-        "Worth skipping unless later sections of the newsletter contain specific tools or research with practical applications."
+        "The excerpt is too thin to judge since it only lists topic teasers (swarm scaling, a watermarking item, an AI science economy piece) without details or numbers.",
+        "Worth tracking the swarm scaling and biology watermarking topics since they could later matter for health-tech data integrity or AI agent use, but there is nothing actionable here yet.",
+        "Do not change any build plans based on this snippet alone, read the full newsletter sections first before drawing conclusions."
+      ]
+    },
+    {
+      "source": "Interconnects",
+      "author": "Nathan Lambert",
+      "date": "2026-10-06",
+      "title": "The Cyber Risk Discourse is Broken",
+      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+      "verdict": "WATCH",
+      "takeaways": [
+        "The excerpt is just a title and one-line teaser about debates over open-weight AI models and cyber risk, not enough detail to act on.",
+        "If you use open-weight AI models in your product, keep an eye on this debate since it touches security and compliance risk framing that regulators may pick up on.",
+        "No concrete facts or numbers are given here, so do not change any build or security decisions based on this alone; revisit once the full article is available."
       ]
     }
   ],
   "misses": [
     {
-      "source": "Interconnects (Nathan Lambert)",
+      "source": "Ahead of AI (Sebastian Raschka)",
       "reason": "No new post in the last 7 days"
     }
   ]
