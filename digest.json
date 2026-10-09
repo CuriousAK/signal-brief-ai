@@ -1,33 +1,7 @@
 {
-  "issue": 67,
-  "generated_at": "2026-10-07T19:07:40.831Z",
+  "issue": 68,
+  "generated_at": "2026-10-09T18:34:37.970Z",
   "items": [
-    {
-      "source": "One Useful Thing",
-      "author": "Ethan Mollick",
-      "date": "2026-10-01",
-      "title": "The Dot and the Swarm",
-      "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-      "verdict": "WATCH",
-      "takeaways": [
-        "The excerpt only gives a title and a one line teaser, so there is not enough detail here to change any build decisions today.",
-        "The phrase 'Bitter Lesson' usually refers to the idea that scaling data and compute tends to beat hand crafted rules, so this may be relevant if you are deciding between building custom clinical logic versus leaning on larger general models.",
-        "Worth reading the full post before acting, since the actual argument and any concrete recommendations are not included in this excerpt."
-      ]
-    },
-    {
-      "source": "Latent Space",
-      "author": "swyx",
-      "date": "2026-10-07",
-      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
-      "url": "https://www.latent.space/p/stacklok",
-      "verdict": "WATCH",
-      "takeaways": [
-        "This is too thin to act on now. It only names two well known Kubernetes creators working on a new tool to run AI agents more reliably in the cloud, with no details on what it does or when it ships.",
-        "If you use AI agents in your product, keep an eye on this because reliability and infrastructure for agents is a real pain point, but do not change any build plans based on this alone.",
-        "Worth a 15 minute check back in a few months to see if they release something usable, especially if your team struggles with agents failing or behaving inconsistently."
-      ]
-    },
     {
       "source": "Import AI",
       "author": "Jack Clark",
@@ -36,9 +10,9 @@
       "url": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt is too thin to judge since it only lists topic teasers (swarm scaling, a watermarking item, an AI science economy piece) without details or numbers.",
-        "Worth tracking the swarm scaling and biology watermarking topics since they could later matter for health-tech data integrity or AI agent use, but there is nothing actionable here yet.",
-        "Do not change any build plans based on this snippet alone, read the full newsletter sections first before drawing conclusions."
+        "This excerpt is too thin to act on. It only hints at topics like swarm scaling and biology watermarking without explaining what they mean or why they matter.",
+        "Worth keeping an eye on the full newsletter later if swarm scaling (using many small AI agents instead of one big one) turns out to be relevant to how you process health data or run AI tasks cheaply.",
+        "No build decision should change based on this snippet alone. Wait for more concrete details before investing time."
       ]
     },
     {
@@ -49,13 +23,30 @@
       "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt is just a title and one-line teaser about debates over open-weight AI models and cyber risk, not enough detail to act on.",
-        "If you use open-weight AI models in your product, keep an eye on this debate since it touches security and compliance risk framing that regulators may pick up on.",
-        "No concrete facts or numbers are given here, so do not change any build or security decisions based on this alone; revisit once the full article is available."
+        "The excerpt is just a title and one-line teaser about open-weights AI models and cyber risk debate, not enough detail to act on.",
+        "If you use open-weights AI models in your product, keep an eye on this discussion since it may affect security and compliance guidance later.",
+        "No specific facts or numbers here to build on yet, just a topic to track before making any security-related build decisions."
+      ]
+    },
+    {
+      "source": "Latent Space",
+      "author": "swyx",
+      "date": "2026-10-08",
+      "title": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
+      "verdict": "SKIP",
+      "takeaways": [
+        "This post has no real content, it just says it was a quiet day with nothing notable to report.",
+        "There is nothing here that affects any build, product, or technology decision for your health-tech company.",
+        "Safe to skip this one and check back when there is an actual news item to evaluate."
       ]
     }
   ],
   "misses": [
+    {
+      "source": "One Useful Thing (Ethan Mollick)",
+      "reason": "No new post in the last 7 days"
+    },
     {
       "source": "Ahead of AI (Sebastian Raschka)",
       "reason": "No new post in the last 7 days"
