@@ -1,44 +1,44 @@
 {
-  "issue": 68,
-  "generated_at": "2026-10-09T18:34:37.970Z",
+  "issue": 69,
+  "generated_at": "2026-10-12T21:27:44.588Z",
   "items": [
+    {
+      "source": "Latent Space",
+      "author": "swyx",
+      "date": "2026-10-12",
+      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+      "url": "https://www.latent.space/p/claude-dynamic-workflows",
+      "verdict": "WATCH",
+      "takeaways": [
+        "This is a conference talk summary about how Anthropic coordinates multiple AI agents on larger tasks, but the excerpt does not explain the actual method or give usable detail yet.",
+        "If you are building anything with multiple AI agents working together (for example, one agent pulling patient data while another drafts a note), keep an eye on how Anthropic documents this pattern since it could simplify your architecture later.",
+        "No action needed now. Wait for a fuller writeup or video before deciding if this changes how you design agent workflows."
+      ]
+    },
     {
       "source": "Import AI",
       "author": "Jack Clark",
-      "date": "2026-10-05",
-      "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
-      "url": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy/",
+      "date": "2026-10-12",
+      "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+      "url": "https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is too thin to act on. It only hints at topics like swarm scaling and biology watermarking without explaining what they mean or why they matter.",
-        "Worth keeping an eye on the full newsletter later if swarm scaling (using many small AI agents instead of one big one) turns out to be relevant to how you process health data or run AI tasks cheaply.",
-        "No build decision should change based on this snippet alone. Wait for more concrete details before investing time."
+        "This excerpt only mentions a new visual reasoning benchmark and two AI startups in passing, with no real detail on what they do.",
+        "There is not enough information here to change any product or build decision right now.",
+        "Worth a quick follow up later to see if the visual reasoning benchmark reveals weaknesses relevant to any imaging or diagnostic features you might build."
       ]
     },
     {
       "source": "Interconnects",
       "author": "Nathan Lambert",
-      "date": "2026-10-06",
-      "title": "The Cyber Risk Discourse is Broken",
-      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+      "date": "2026-10-09",
+      "title": "I expect rapid progress but not towards general superintelligence",
+      "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt is just a title and one-line teaser about open-weights AI models and cyber risk debate, not enough detail to act on.",
-        "If you use open-weights AI models in your product, keep an eye on this discussion since it may affect security and compliance guidance later.",
-        "No specific facts or numbers here to build on yet, just a topic to track before making any security-related build decisions."
-      ]
-    },
-    {
-      "source": "Latent Space",
-      "author": "swyx",
-      "date": "2026-10-08",
-      "title": "[AINews] not much happened today",
-      "url": "https://www.latent.space/p/ainews-not-much-happened-today-60f",
-      "verdict": "SKIP",
-      "takeaways": [
-        "This post has no real content, it just says it was a quiet day with nothing notable to report.",
-        "There is nothing here that affects any build, product, or technology decision for your health-tech company.",
-        "Safe to skip this one and check back when there is an actual news item to evaluate."
+        "This excerpt is just one researcher's personal opinion about AI timelines, with no data or specifics on which tasks or industries are affected.",
+        "Do not change product plans based on vague predictions about AI surpassing experts in a few years.",
+        "Keep an eye on more detailed reports from this source, but treat this particular post as background noise for now."
       ]
     }
   ],
