@@ -1,44 +1,44 @@
 {
-  "issue": 71,
-  "generated_at": "2026-10-16T17:02:56.923Z",
+  "issue": 72,
+  "generated_at": "2026-10-19T18:53:25.261Z",
   "items": [
-    {
-      "source": "Latent Space",
-      "author": "swyx",
-      "date": "2026-10-16",
-      "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
-      "url": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
-      "verdict": "WATCH",
-      "takeaways": [
-        "This is an unverified early claim about AI interpretability research, not a ready tool or product you can build on yet.",
-        "If true, it could eventually help explain why an AI model makes a certain decision, which matters for health-tech compliance and trust, but there is nothing actionable today.",
-        "Keep an eye on this topic over the next few months before making any build decisions tied to it."
-      ]
-    },
     {
       "source": "Import AI",
       "author": "Jack Clark",
-      "date": "2026-10-12",
-      "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-      "url": "https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space/",
+      "date": "2026-10-19",
+      "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
+      "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt only mentions a new benchmark about AI lacking intuitive visual reasoning, plus a passing mention of two AI companies, with no real detail on either.",
-        "If your product relies on AI visually interpreting images or scans, keep an eye on this benchmark since it suggests current models still have gaps there.",
-        "There is not enough information here to change any build decisions now, just something to watch for follow-up coverage."
+        "The excerpt only mentions a speech about an AI megatrend given at an IMF meeting, with no details on content or specifics.",
+        "There is not enough information here to inform any product or build decision for a health-tech company.",
+        "Worth checking the full speech later if it covers AI capability trends relevant to healthcare, but no action needed now."
       ]
     },
     {
       "source": "Interconnects",
       "author": "Nathan Lambert",
-      "date": "2026-10-09",
-      "title": "I expect rapid progress but not towards general superintelligence",
-      "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
+      "date": "2026-10-17",
+      "title": "Meta shakes up the frontiers, open and closed",
+      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is just one researcher's opinion about AI surpassing humans at jobs, with no specifics on timelines, capabilities, or industries mentioned.",
-        "There is nothing here about health tech specifically, so no build decisions should change based on this alone.",
-        "Worth tracking the broader debate on AI capability trajectories, but wait for concrete evidence before adjusting product plans."
+        "The excerpt only announces that a new US open weights model from Meta exists, with no details on capability, licensing, or cost, so it is too thin to justify any build decision now.",
+        "Open weights models matter for health-tech because they can be run on your own servers for better data privacy, so it is worth tracking once more details on performance and license terms emerge.",
+        "Do not switch or commit engineering resources yet, just flag this for follow up when a fuller review or benchmark comparison is available."
+      ]
+    },
+    {
+      "source": "Latent Space",
+      "author": "swyx",
+      "date": "2026-10-17",
+      "title": "[AINews] High Taste Testers Ep. 1",
+      "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+      "verdict": "SKIP",
+      "takeaways": [
+        "This excerpt is just an announcement of a new podcast pilot episode with no technical or product details.",
+        "There is nothing here relevant to health-tech product decisions, so no action is needed.",
+        "If future episodes cover specific AI tools or techniques, those could be worth a second look."
       ]
     }
   ],
