@@ -1,7 +1,33 @@
 {
-  "issue": 72,
-  "generated_at": "2026-10-19T18:53:25.261Z",
+  "issue": 73,
+  "generated_at": "2026-10-21T17:45:12.527Z",
   "items": [
+    {
+      "source": "One Useful Thing",
+      "author": "Ethan Mollick",
+      "date": "2026-10-20",
+      "title": "30 Months on the Exponential (in Charts)",
+      "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
+      "verdict": "WATCH",
+      "takeaways": [
+        "This excerpt is just a book announcement with no real details on what has changed technically, so there is nothing concrete to act on yet.",
+        "Keep an eye out for a fuller summary or review of the book's content before deciding if it affects your product plans.",
+        "If you want, track this author's future posts since they may unpack specific AI capability changes relevant to health-tech later."
+      ]
+    },
+    {
+      "source": "Latent Space",
+      "author": "swyx",
+      "date": "2026-10-21",
+      "title": "Claude Mods: Flipping the Harness Inside Out",
+      "url": "https://www.latent.space/p/claude-mods",
+      "verdict": "WATCH",
+      "takeaways": [
+        "This excerpt is too thin to judge properly. It describes a concept (agent interfaces facing humans instead of machines) but gives no specifics on what Claude Mods actually does or how it works.",
+        "The core idea, that AI tools might shift from being machine-focused to human-focused interfaces, could eventually matter for how you design patient or clinician-facing AI features. Worth tracking but not actionable yet.",
+        "Do not change any build plans based on this alone. Wait for a follow-up post or demo that explains what problem this solves in practical terms before investing time."
+      ]
+    },
     {
       "source": "Import AI",
       "author": "Jack Clark",
@@ -10,43 +36,26 @@
       "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt only mentions a speech about an AI megatrend given at an IMF meeting, with no details on content or specifics.",
-        "There is not enough information here to inform any product or build decision for a health-tech company.",
-        "Worth checking the full speech later if it covers AI capability trends relevant to healthcare, but no action needed now."
+        "This excerpt is just an intro to a speech with no technical or product details, so there is nothing actionable to build from yet.",
+        "It mentions a speech about an AI megatrend given at the IMF, worth skimming later if the full text becomes available to see if it affects health-tech regulation or funding trends.",
+        "No specific facts, numbers, or tools are given here, so do not make any build decisions based on this excerpt alone."
       ]
     },
     {
       "source": "Interconnects",
       "author": "Nathan Lambert",
-      "date": "2026-10-17",
-      "title": "Meta shakes up the frontiers, open and closed",
-      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+      "date": "2026-10-20",
+      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt only announces that a new US open weights model from Meta exists, with no details on capability, licensing, or cost, so it is too thin to justify any build decision now.",
-        "Open weights models matter for health-tech because they can be run on your own servers for better data privacy, so it is worth tracking once more details on performance and license terms emerge.",
-        "Do not switch or commit engineering resources yet, just flag this for follow up when a fuller review or benchmark comparison is available."
-      ]
-    },
-    {
-      "source": "Latent Space",
-      "author": "swyx",
-      "date": "2026-10-17",
-      "title": "[AINews] High Taste Testers Ep. 1",
-      "url": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
-      "verdict": "SKIP",
-      "takeaways": [
-        "This excerpt is just an announcement of a new podcast pilot episode with no technical or product details.",
-        "There is nothing here relevant to health-tech product decisions, so no action is needed.",
-        "If future episodes cover specific AI tools or techniques, those could be worth a second look."
+        "The excerpt is too thin to judge in detail. It only gives a title and a short teaser line, not enough to know what actually changed in these models or regulations.",
+        "Keep an eye on new open source model releases and any new US or China regulatory controls, since these could affect which AI models you are allowed to use or host later.",
+        "Do not change any build plans yet. Wait for a fuller summary or the actual post before deciding if this affects your product."
       ]
     }
   ],
   "misses": [
-    {
-      "source": "One Useful Thing (Ethan Mollick)",
-      "reason": "No new post in the last 7 days"
-    },
     {
       "source": "Ahead of AI (Sebastian Raschka)",
       "reason": "No new post in the last 7 days"
