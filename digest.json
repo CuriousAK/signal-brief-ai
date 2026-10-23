@@ -1,6 +1,6 @@
 {
-  "issue": 73,
-  "generated_at": "2026-10-21T17:45:12.527Z",
+  "issue": 74,
+  "generated_at": "2026-10-23T17:34:34.477Z",
   "items": [
     {
       "source": "One Useful Thing",
@@ -10,22 +10,22 @@
       "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is just a book announcement with no real details on what has changed technically, so there is nothing concrete to act on yet.",
-        "Keep an eye out for a fuller summary or review of the book's content before deciding if it affects your product plans.",
-        "If you want, track this author's future posts since they may unpack specific AI capability changes relevant to health-tech later."
+        "This excerpt is just a book announcement with no real data or details, so there is nothing concrete to act on yet.",
+        "Worth watching because Mollick tracks AI capability trends closely, so the actual book or charts may later show useful signals for how fast AI tools are improving.",
+        "Do not change any build plans based on this post alone, it does not contain enough information."
       ]
     },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-10-21",
-      "title": "Claude Mods: Flipping the Harness Inside Out",
-      "url": "https://www.latent.space/p/claude-mods",
+      "date": "2026-10-23",
+      "title": "AI Is Getting Good at Math. Here’s Why.",
+      "url": "https://latent.space/p/ai-is-getting-good-at-math/",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is too thin to judge properly. It describes a concept (agent interfaces facing humans instead of machines) but gives no specifics on what Claude Mods actually does or how it works.",
-        "The core idea, that AI tools might shift from being machine-focused to human-focused interfaces, could eventually matter for how you design patient or clinician-facing AI features. Worth tracking but not actionable yet.",
-        "Do not change any build plans based on this alone. Wait for a follow-up post or demo that explains what problem this solves in practical terms before investing time."
+        "The excerpt only says AI is improving at math and a pattern may predict future wins, with no detail on methods or health applications.",
+        "If true, it could hint at AI getting better at structured problem solving, which may someday help with tasks like clinical scoring or dosage calculations, but this is speculative.",
+        "No action needed now. Just track this trend and revisit if a follow up names specific techniques or healthcare-relevant results."
       ]
     },
     {
@@ -36,9 +36,9 @@
       "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is just an intro to a speech with no technical or product details, so there is nothing actionable to build from yet.",
-        "It mentions a speech about an AI megatrend given at the IMF, worth skimming later if the full text becomes available to see if it affects health-tech regulation or funding trends.",
-        "No specific facts, numbers, or tools are given here, so do not make any build decisions based on this excerpt alone."
+        "This excerpt is just an intro blurb and does not include the actual content of the speech, so there is nothing concrete to act on yet.",
+        "The title suggests a talk about AI progress trends given to IMF policymakers, which could be worth reading in full later for macro context on AI's trajectory.",
+        "No specific technology, tool, or capability is described here that would change a health-tech build decision right now."
       ]
     },
     {
@@ -49,9 +49,9 @@
       "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt is too thin to judge in detail. It only gives a title and a short teaser line, not enough to know what actually changed in these models or regulations.",
-        "Keep an eye on new open source model releases and any new US or China regulatory controls, since these could affect which AI models you are allowed to use or host later.",
-        "Do not change any build plans yet. Wait for a fuller summary or the actual post before deciding if this affects your product."
+        "The excerpt only gives a headline about new open-source AI models and regulatory changes, not enough detail to justify any build decision now.",
+        "Keep an eye on new regulatory controls from the US and China, as these could affect which AI models you are allowed to use or deploy in a health-tech product.",
+        "Track the emergence of new open models in case they offer cheaper or more flexible options later, but do not switch your current AI stack based on this alone."
       ]
     }
   ],
