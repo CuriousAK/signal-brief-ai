@@ -1,6 +1,6 @@
 {
-  "issue": 74,
-  "generated_at": "2026-10-23T17:34:34.477Z",
+  "issue": 75,
+  "generated_at": "2026-10-26T18:55:34.766Z",
   "items": [
     {
       "source": "One Useful Thing",
@@ -10,55 +10,63 @@
       "url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is just a book announcement with no real data or details, so there is nothing concrete to act on yet.",
-        "Worth watching because Mollick tracks AI capability trends closely, so the actual book or charts may later show useful signals for how fast AI tools are improving.",
-        "Do not change any build plans based on this post alone, it does not contain enough information."
+        "This excerpt is just a book announcement teaser with no concrete data or findings shown, so there is nothing actionable yet.",
+        "Watch for follow up posts or the book itself if it covers AI capability trends, since those could affect what AI features are worth building in health-tech.",
+        "Do not make any build decisions based on this excerpt alone, it is too thin to judge."
+      ]
+    },
+    {
+      "source": "Ahead of AI",
+      "author": "Sebastian Raschka",
+      "date": "2026-10-24",
+      "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "verdict": "WATCH",
+      "takeaways": [
+        "This is a deep technical training course for engineers who want to build reasoning AI models from scratch, not a tool or service you can use directly.",
+        "If your technical team ever needs to build custom AI reasoning capability instead of using existing APIs, this could be a resource to point them to later.",
+        "No immediate action needed now, just worth knowing this kind of in-depth training material exists for when you might need custom AI model work."
       ]
     },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-10-23",
-      "title": "AI Is Getting Good at Math. Here’s Why.",
-      "url": "https://latent.space/p/ai-is-getting-good-at-math/",
+      "date": "2026-10-24",
+      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+      "url": "https://latent.space/p/ainews-kimi-31/",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt only says AI is improving at math and a pattern may predict future wins, with no detail on methods or health applications.",
-        "If true, it could hint at AI getting better at structured problem solving, which may someday help with tasks like clinical scoring or dosage calculations, but this is speculative.",
-        "No action needed now. Just track this trend and revisit if a follow up names specific techniques or healthcare-relevant results."
+        "This is just a headline about a new open-weights AI model release, there is not enough detail here to make any build decision.",
+        "Worth tracking because open-weights models catching up to closed models (like the one mentioned) could eventually mean cheaper or more private AI options for health-tech products.",
+        "Do not act on this yet, wait for more concrete details on performance, cost, and licensing before considering it for your product."
       ]
     },
     {
       "source": "Import AI",
       "author": "Jack Clark",
-      "date": "2026-10-19",
-      "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
-      "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun/",
+      "date": "2026-10-26",
+      "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
+      "url": "https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means/",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is just an intro blurb and does not include the actual content of the speech, so there is nothing concrete to act on yet.",
-        "The title suggests a talk about AI progress trends given to IMF policymakers, which could be worth reading in full later for macro context on AI's trajectory.",
-        "No specific technology, tool, or capability is described here that would change a health-tech build decision right now."
+        "This excerpt only teases a math-for-alignment research angle from a safety startup, with no details on methods or results, so there is nothing actionable yet.",
+        "Track Resolution's (formerly Sequent) alignment research over time, since AI safety techniques could eventually affect how you validate AI outputs in health products.",
+        "No build decision should change based on this snippet alone; revisit once the full article or paper is available."
       ]
     },
     {
       "source": "Interconnects",
       "author": "Nathan Lambert",
-      "date": "2026-10-20",
-      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
-      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+      "date": "2026-10-25",
+      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+      "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt only gives a headline about new open-source AI models and regulatory changes, not enough detail to justify any build decision now.",
-        "Keep an eye on new regulatory controls from the US and China, as these could affect which AI models you are allowed to use or deploy in a health-tech product.",
-        "Track the emergence of new open models in case they offer cheaper or more flexible options later, but do not switch your current AI stack based on this alone."
+        "The excerpt is just a title and episode number with no real content, so there is nothing concrete to act on yet.",
+        "Topics mentioned like Kimi K3.1 Pro and cyber security trends could matter later, so keep an eye out for a fuller writeup or transcript.",
+        "Do not change any build plans based on this alone, wait for actual details before drawing conclusions."
       ]
     }
   ],
-  "misses": [
-    {
-      "source": "Ahead of AI (Sebastian Raschka)",
-      "reason": "No new post in the last 7 days"
-    }
-  ]
+  "misses": []
 }
