@@ -1,18 +1,18 @@
 {
-  "issue": 76,
-  "generated_at": "2026-11-02T22:00:08.189Z",
+  "issue": 77,
+  "generated_at": "2026-11-06T19:45:09.110Z",
   "items": [
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-10-31",
-      "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
-      "url": "https://latent.space/p/arca/",
+      "date": "2026-11-06",
+      "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
+      "url": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt is thin on specifics, so treat this as something to track rather than act on yet.",
-        "The core idea, agents that keep memory and work on a task over multiple days, is relevant if you have long multi-step processes like claims review or care coordination, so watch for more detail before investing engineering time.",
-        "A custom harness suggests off the shelf agent tools may not be enough for complex workflows, worth a note for later but not a reason to change your build plan now."
+        "This is a general research direction (mapping to predicting to controlling biology), not a specific tool or dataset you can build on yet.",
+        "Worth tracking if your product touches cell biology modeling or drug discovery, since better prediction models could eventually improve your R&D pipeline.",
+        "Too little detail here to change any build decision now; wait for a more concrete announcement like a released model, dataset, or API."
       ]
     },
     {
@@ -23,22 +23,22 @@
       "url": "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt only mentions that LLMs struggle with low latency, real time tasks like games or live auctions, this is too thin to act on.",
-        "If your product needs instant, split-second AI decisions, keep this in mind as a limitation and watch for more detail before building around it.",
-        "No concrete data or links are given here, so just track this topic rather than making any changes now."
+        "The excerpt mentions a benchmark (Realtime-Bench) showing current AI models struggle with low-latency, time-sensitive tasks, which matters if your product needs instant decision-making like live patient triage or real-time monitoring alerts.",
+        "If your health-tech product relies on quick back-and-forth interactions rather than slow, deliberate responses, do not expect current LLMs to handle that well yet; plan for human oversight or simpler rule-based systems in those spots.",
+        "The excerpt is too thin to draw firm conclusions beyond this, so treat it as a signal to watch for more detail rather than a reason to change your build plans today."
       ]
     },
     {
       "source": "Interconnects",
       "author": "Nathan Lambert",
-      "date": "2026-10-30",
-      "title": "Was I wrong about open models & cyber risks?",
-      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+      "date": "2026-11-04",
+      "title": "How big is the open model economy today?",
+      "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt flags that AI models are reportedly making it easier to find or exploit software vulnerabilities, which matters for any health-tech product handling patient data.",
-        "No specifics are given on how AI contributed to these vulnerabilities, so treat this as an early warning signal, not a reason to change your build plans yet.",
-        "Keep an eye on vulnerability disclosures affecting tools you use (like GitLab) and make sure your patching and security review process is fast, since this trend suggests risks may be accelerating."
+        "The excerpt is just a title and intro, no actual data or findings are shown, so there is nothing concrete to act on yet.",
+        "Worth tracking if a follow-up with real numbers appears, since open model adoption size could affect build-vs-buy decisions for AI features.",
+        "Do not change any current technical plans based on this post alone."
       ]
     }
   ],
