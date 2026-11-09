@@ -1,31 +1,44 @@
 {
-  "issue": 77,
-  "generated_at": "2026-11-06T19:45:09.110Z",
+  "issue": 78,
+  "generated_at": "2026-11-09T22:46:34.415Z",
   "items": [
+    {
+      "source": "One Useful Thing",
+      "author": "Ethan Mollick",
+      "date": "2026-11-09",
+      "title": "Fable 5.2 and Jagged AGI",
+      "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "verdict": "WATCH",
+      "takeaways": [
+        "The excerpt is just a title and a short tagline, so there is not enough detail here to justify any build decision yet.",
+        "The phrase 'jagged AGI' hints at a theme worth tracking: AI that is expert in some areas but inconsistent in others, which matters if you plan to rely on AI for clinical or health-related tasks.",
+        "Before acting, find the full article to see what specific capabilities or limitations are being discussed, since that context would determine if this is relevant to your product."
+      ]
+    },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-11-06",
-      "title": "Controlling Biology - Fabian Theis, Helmholtz Munich",
-      "url": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
+      "date": "2026-11-09",
+      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+      "url": "https://latent.space/p/handshake/",
       "verdict": "WATCH",
       "takeaways": [
-        "This is a general research direction (mapping to predicting to controlling biology), not a specific tool or dataset you can build on yet.",
-        "Worth tracking if your product touches cell biology modeling or drug discovery, since better prediction models could eventually improve your R&D pipeline.",
-        "Too little detail here to change any build decision now; wait for a more concrete announcement like a released model, dataset, or API."
+        "This is about a company that sells specialized training data to big AI labs, including bio and finance data, not a health product you would build directly.",
+        "It signals that domain-specific data like clinical or bio data is valuable to AI companies, so if you have proprietary health data you may have a future data licensing opportunity.",
+        "The excerpt is light on details, so treat this as a trend to watch rather than something to act on now."
       ]
     },
     {
       "source": "Import AI",
       "author": "Jack Clark",
-      "date": "2026-11-02",
-      "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
-      "url": "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4/",
+      "date": "2026-11-09",
+      "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
+      "url": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt mentions a benchmark (Realtime-Bench) showing current AI models struggle with low-latency, time-sensitive tasks, which matters if your product needs instant decision-making like live patient triage or real-time monitoring alerts.",
-        "If your health-tech product relies on quick back-and-forth interactions rather than slow, deliberate responses, do not expect current LLMs to handle that well yet; plan for human oversight or simpler rule-based systems in those spots.",
-        "The excerpt is too thin to draw firm conclusions beyond this, so treat it as a signal to watch for more detail rather than a reason to change your build plans today."
+        "The excerpt is just a teaser with headlines, not enough detail to justify any build decision right now.",
+        "The mention of AI converting a math conjecture into a theorem hints at AI being used for rigorous scientific reasoning, which could matter later for health research tools, but there are no specifics on method or reliability.",
+        "Keep an eye on future issues for concrete technical details before considering any changes to your product roadmap."
       ]
     },
     {
@@ -36,17 +49,13 @@
       "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt is just a title and intro, no actual data or findings are shown, so there is nothing concrete to act on yet.",
-        "Worth tracking if a follow-up with real numbers appears, since open model adoption size could affect build-vs-buy decisions for AI features.",
-        "Do not change any current technical plans based on this post alone."
+        "The excerpt is just an intro to a paywalled research note and gives no real data or findings yet.",
+        "Worth tracking because understanding the size of the open model economy could inform whether to build on open-source AI models versus paid APIs.",
+        "No action needed now, revisit if the full report becomes available with specific numbers or trends relevant to health-tech AI costs."
       ]
     }
   ],
   "misses": [
-    {
-      "source": "One Useful Thing (Ethan Mollick)",
-      "reason": "No new post in the last 7 days"
-    },
     {
       "source": "Ahead of AI (Sebastian Raschka)",
       "reason": "No new post in the last 7 days"
