@@ -1,6 +1,6 @@
 {
-  "issue": 78,
-  "generated_at": "2026-11-09T22:46:34.415Z",
+  "issue": 79,
+  "generated_at": "2026-11-11T19:55:14.712Z",
   "items": [
     {
       "source": "One Useful Thing",
@@ -10,22 +10,22 @@
       "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt is just a title and a short tagline, so there is not enough detail here to justify any build decision yet.",
-        "The phrase 'jagged AGI' hints at a theme worth tracking: AI that is expert in some areas but inconsistent in others, which matters if you plan to rely on AI for clinical or health-related tasks.",
-        "Before acting, find the full article to see what specific capabilities or limitations are being discussed, since that context would determine if this is relevant to your product."
+        "The excerpt is just a title and tagline, not enough detail to make a build decision yet.",
+        "The phrase 'jagged AGI' suggests AI capabilities are uneven, strong in some areas but weak in others, so watch for specifics before trusting AI outputs in clinical or compliance-sensitive workflows.",
+        "Track the full post before acting. If Fable 5.2 relates to AI model capabilities, it may be worth revisiting once concrete details on strengths and failure modes are available."
       ]
     },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-11-09",
-      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
-      "url": "https://latent.space/p/handshake/",
+      "date": "2026-11-11",
+      "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+      "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
       "verdict": "WATCH",
       "takeaways": [
-        "This is about a company that sells specialized training data to big AI labs, including bio and finance data, not a health product you would build directly.",
-        "It signals that domain-specific data like clinical or bio data is valuable to AI companies, so if you have proprietary health data you may have a future data licensing opportunity.",
-        "The excerpt is light on details, so treat this as a trend to watch rather than something to act on now."
+        "This excerpt is too thin to judge properly. It only gives a funding headline and one line about a new Gemini model release, with no details on capabilities or relevance to health-tech.",
+        "If Gemini 4 Carbon is a real model update, it is worth tracking for potential cost or performance improvements in AI features, but wait for more details before changing any build plans.",
+        "Mercor's valuation jump suggests continued strong investor interest in AI infrastructure and hiring platforms, which is background market context rather than something to act on today."
       ]
     },
     {
@@ -36,28 +36,19 @@
       "url": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt is just a teaser with headlines, not enough detail to justify any build decision right now.",
-        "The mention of AI converting a math conjecture into a theorem hints at AI being used for rigorous scientific reasoning, which could matter later for health research tools, but there are no specifics on method or reliability.",
-        "Keep an eye on future issues for concrete technical details before considering any changes to your product roadmap."
-      ]
-    },
-    {
-      "source": "Interconnects",
-      "author": "Nathan Lambert",
-      "date": "2026-11-04",
-      "title": "How big is the open model economy today?",
-      "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
-      "verdict": "WATCH",
-      "takeaways": [
-        "The excerpt is just an intro to a paywalled research note and gives no real data or findings yet.",
-        "Worth tracking because understanding the size of the open model economy could inform whether to build on open-source AI models versus paid APIs.",
-        "No action needed now, revisit if the full report becomes available with specific numbers or trends relevant to health-tech AI costs."
+        "The excerpt is just a teaser with headlines about space economies, AI for science, and robotics, no real detail to act on.",
+        "One mention is an AI startup turning a math conjecture into a proven theorem, which signals AI research tools are advancing but has no direct health-tech application yet.",
+        "Worth skimming the full issue later to see if the AI-for-science or robotics items have relevance to health-tech, but nothing here requires a build decision now."
       ]
     }
   ],
   "misses": [
     {
       "source": "Ahead of AI (Sebastian Raschka)",
+      "reason": "No new post in the last 7 days"
+    },
+    {
+      "source": "Interconnects (Nathan Lambert)",
       "reason": "No new post in the last 7 days"
     }
   ]
