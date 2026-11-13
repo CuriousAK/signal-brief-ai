@@ -1,6 +1,6 @@
 {
-  "issue": 79,
-  "generated_at": "2026-11-11T19:55:14.712Z",
+  "issue": 80,
+  "generated_at": "2026-11-13T20:09:10.544Z",
   "items": [
     {
       "source": "One Useful Thing",
@@ -10,22 +10,22 @@
       "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt is just a title and tagline, not enough detail to make a build decision yet.",
-        "The phrase 'jagged AGI' suggests AI capabilities are uneven, strong in some areas but weak in others, so watch for specifics before trusting AI outputs in clinical or compliance-sensitive workflows.",
-        "Track the full post before acting. If Fable 5.2 relates to AI model capabilities, it may be worth revisiting once concrete details on strengths and failure modes are available."
+        "The excerpt is just a title and a one-line teaser, so there is not enough detail here to justify any build decision right now.",
+        "The phrase 'jagged AGI' suggests AI models are getting very good at some tasks but still unreliable at others, which is a reminder to test any AI feature thoroughly on your specific health use cases before trusting it.",
+        "Worth tracking: if this post discusses a model called Fable 5.2 in more depth elsewhere, have your technical advisor review the full article before deciding if it is relevant to your product."
       ]
     },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-11-11",
-      "title": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
-      "url": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+      "date": "2026-11-13",
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is too thin to judge properly. It only gives a funding headline and one line about a new Gemini model release, with no details on capabilities or relevance to health-tech.",
-        "If Gemini 4 Carbon is a real model update, it is worth tracking for potential cost or performance improvements in AI features, but wait for more details before changing any build plans.",
-        "Mercor's valuation jump suggests continued strong investor interest in AI infrastructure and hiring platforms, which is background market context rather than something to act on today."
+        "This is a leadership change at NVIDIA, not a product or pricing change, so there is nothing to build differently today.",
+        "If you rely on NVIDIA chips or pricing for AI features, keep an eye on this for a few months in case it affects chip supply or cost.",
+        "The excerpt is too thin to judge real impact. It just states a resignation and asks an open question, with no details on strategy or policy changes."
       ]
     },
     {
@@ -36,9 +36,9 @@
       "url": "https://jack-clark.net/2026/11/09/import-ai-480-self-sustaining-space-economies-ai-for-science-progress-and-meta-builds-perfect-hands-for-a-superintelligence/",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt is just a teaser with headlines about space economies, AI for science, and robotics, no real detail to act on.",
-        "One mention is an AI startup turning a math conjecture into a proven theorem, which signals AI research tools are advancing but has no direct health-tech application yet.",
-        "Worth skimming the full issue later to see if the AI-for-science or robotics items have relevance to health-tech, but nothing here requires a build decision now."
+        "The excerpt is just a title and intro with no real detail on the science or robotics stories, so there is nothing concrete to act on yet.",
+        "Worth keeping an eye on the AI-for-science angle since tools that help generate or verify scientific/mathematical results could eventually speed up biomedical research workflows.",
+        "No build decision should change based on this snippet alone; wait for a fuller summary before investing any engineering time."
       ]
     }
   ],
