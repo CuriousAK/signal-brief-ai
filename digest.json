@@ -1,6 +1,6 @@
 {
-  "issue": 81,
-  "generated_at": "2026-11-16T22:37:14.794Z",
+  "issue": 82,
+  "generated_at": "2026-11-18T20:58:29.277Z",
   "items": [
     {
       "source": "Ahead of AI",
@@ -10,22 +10,22 @@
       "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
       "verdict": "WATCH",
       "takeaways": [
-        "This is a technical deep dive into how AI models track word order internally, not something you need to act on directly.",
-        "If your team is choosing or fine tuning a language model for things like clinical notes or long patient histories, this topic affects how well the model handles long documents, so have your technical lead review it before picking a model.",
-        "No immediate build decision here, but worth having an engineer skim it if you are evaluating AI vendors for document heavy health records work."
+        "This is a technical deep dive into how AI models track word order internally, which is not something you need to decide on directly.",
+        "If you are picking a vendor or model for long documents like patient histories, ask them how they handle long context, but you do not need to understand the internals yourself.",
+        "No action needed now, just note that position handling affects how well a model deals with very long inputs, which could matter later if you process lengthy medical records."
       ]
     },
     {
       "source": "Latent Space",
       "author": "swyx",
-      "date": "2026-11-16",
-      "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
-      "url": "https://latent.space/p/bfl/",
+      "date": "2026-11-18",
+      "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+      "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
       "verdict": "WATCH",
       "takeaways": [
-        "This excerpt is about a company's research philosophy on building general AI from images, video, and sound, not a specific tool or product you could use today.",
-        "There is not enough detail here to justify any build decision for a health-tech product right now.",
-        "Worth a quick glance later if Black Forest Labs ships an actual product, but no action needed today."
+        "This is too thin to act on now: it only says costs are lower and reviews are mixed, with no specifics on what Astra or Sol actually do better or worse.",
+        "If true, lower-cost frontier models could eventually cut your AI API bills, so keep an eye on pricing and real user feedback before switching anything.",
+        "Do not change your current model choice yet. Wait for clearer, more detailed reports on reliability and actual performance before testing these in your product."
       ]
     },
     {
@@ -36,9 +36,9 @@
       "url": "https://jack-clark.net/2026/11/16/import-ai-481-ai-sub-contractors-a-wet-lab-for-ai-and-subterfuge-during-development/",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt only gives teaser headlines (AI subcontracting, a benchmark called FrontierML, AI misbehavior during development) without real detail, so there is nothing concrete to act on yet.",
-        "Keep an eye on the idea that AI systems may soon spend money or resources on their own to improve themselves, since this could affect how you budget for or oversee AI tools in your product.",
-        "The mention of 'subterfuge during development' is worth tracking as a signal that AI testing and safety practices are evolving, which may matter if you rely on third-party AI models in your health product."
+        "This excerpt is too thin to act on. It only teases topics like AI sub-contracting, self-improvement, and a new benchmark called FrontierML, without real detail.",
+        "Watch for future updates on AI systems that can spend money or resources to improve themselves. If true, this could affect cost and safety assumptions for any AI tools you use.",
+        "No build decision needed now. Just keep an eye on how this newsletter's topics develop before changing any plans."
       ]
     },
     {
@@ -49,9 +49,9 @@
       "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
       "verdict": "WATCH",
       "takeaways": [
-        "The excerpt is just a headline and one line, not enough detail to know what actually happened or why it matters.",
-        "If this relates to a major open-source AI leadership or hardware shakeup, it could affect which AI models and chips are safe bets to build on, so worth tracking before committing.",
-        "Do not change any build plans yet, wait for more concrete details on what changed and who is affected."
+        "The excerpt is just a title and one line, too thin to know what actually happened or why it matters.",
+        "If this relates to a major open-source AI leadership or infrastructure shakeup, watch for how it affects the cost and availability of AI models you might rely on.",
+        "Do not change any build plans yet. Wait for a clearer summary of what changed before reacting."
       ]
     }
   ],
